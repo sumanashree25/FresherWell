@@ -46,10 +46,14 @@ Version: 1.0.0
 .techwix-choose-us-section-04 .choose-us-item-02 {
     border: 1px solid #e1e1e1;
     box-shadow: none;
-	min-height: 523px;
-	padding: 25px 25px 25px;
+	min-height: 405px;
+	padding: 25px 25px 0px;
+	text-align: center;
 	
 }
+.service-section .read-more-btn{ margin-top:20px;}
+.service-section .read-more-btn a{ font-size: 14px; padding: 10px 10px;}
+.service-section .read-more-btn .theme-btn i{ font-size: 10px;}
 .choose-us-item-02 {
     background: #ffffff;
     box-shadow: 0px 0px 60px 0px rgba(0, 0, 0, 0.06);
@@ -77,7 +81,7 @@ Version: 1.0.0
   position: relative;
   overflow: hidden;
   font-size: 16px;
-  padding: 24px 45px;
+  padding: 15px 24px;
   border-radius: 7px;
   z-index: 9;
   display: inline-block;
@@ -110,8 +114,8 @@ Version: 1.0.0
 }
 .starting-fresherwells h2{ line-height: 75px;}
 .starting-fresherwells a{ padding: 0.8rem 1.7rem; color: #fff !important;
-    border-color: #f74780 !important;
-    background-color: #f74780 !important; font-size: 18px;
+    border-color: #103a3a !important;
+    background-color: #103a3a !important; font-size: 18px;
     font-weight: bold;}
 .starting-fresherwells a:hover{color: #fff !important;
     background-color: transparent !important;
@@ -119,6 +123,31 @@ Version: 1.0.0
 .starting-fresherwells p{ font-size: 24px;     margin: 20px 0;}
 .font--jakarta h1, .font--jakarta h2{ color:#fff;     line-height: 1.25;     font-size: 3rem;     font-weight: 700;}
 .color--white, .color--white h1, .color--white h2, .color--white h3, .color--white h4, .color--white h5, .color--white h6, .color--white p, .color--white a, .color--white li, .color--white i, .color--white span{ color:#fff;}
+.service-section .title-section-area{     display: block; text-align: center;}
+/*---------about us---------*/
+.about-main-title{     text-align: center;     padding: 0 100px;}
+.about-section.Begining-outer .container{ max-width:800px;}
+.about-section .container img{ width:100%; display:block; border-radius:5px;}
+.about-section .about-img-1{ padding: 20px 50px 20px 0;}
+.about-section .about-img-2{ padding: 20px 0 20px 50px; border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
+.about-section .con-right{ padding: 50px 0 20px 50px !important;    border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
+.about-section .con-left{ padding: 50px 50px 20px 0 !important;}
+.about-section .title h2{ font-size: 25px; margin-bottom: 20px;}
+.about-section .container .col-lg-6{ padding:0 0; position:relative;}
+.Circle{ width: 15px;     height: 15px;     border: 1px solid #4e29b7;     border-radius: 100%;     position: absolute;     top: 50%;     left: -8px;     background: #fff;}
+.about-section-top{ padding-top:90px;}
+.about-section.section-padding{ padding: 50px 0;} .Circle-point{ width: 5px;     height: 5px;     display: block;     background: #4e29b7;     border-radius: 100%;     vertical-align: top;     margin: 4px auto 0;}
+.section-title .con{ margin-top:20px;}
+.about-section.why-us-con .container{ max-width:700px; margin:0 auto;}
+.about-section.about-purpose-outer .container img{ width:auto;}
+.about-purpose-outer .icon{ margin-bottom:20px;}
+.about-purpose-outer .title{ font-size:20px; font-weight:700; margin-bottom:15px;     color: #000;}
+.about-purpose-outer .con{ font-size: 14px; padding-right: 25px;}
+.how-we-do-outer .con{ padding-right:50px; padding-top: 50px;}
+.how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
+.about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
+
+
 @media (max-width: 575px) {
   .theme-btn i {
     margin-left: 3px;
@@ -756,7 +785,7 @@ input.main-search-input::placeholder {
 }
 
 .section-title span {
-  color: var(--theme);
+  color: var(--theme2) !important;
   margin-bottom: 10px;
   display: inline-block;
   font-weight: 700;
@@ -772,6 +801,8 @@ input.main-search-input::placeholder {
 
 .section-title h2 {
   text-transform: capitalize;
+  line-height: 55px;
+  font-size: 35px;
 }
 
 .section-title.style-2 span {
@@ -1316,7 +1347,7 @@ input.main-search-input::placeholder {
 }
 
 .header-top-section-3 {
-  background-color: #F1F5FF;
+  background-color: #f1f5ff96;
 }
 
 @media (max-width: 1199px) {
@@ -1585,7 +1616,7 @@ input.main-search-input::placeholder {
 }
 
 .header-top-wrapper.style-3 .top-left .contact-list li i {
-  color: var(--theme2);
+  color: #000;
   margin-right: 10px;
 }
 
@@ -1604,12 +1635,12 @@ input.main-search-input::placeholder {
 }
 
 .header-top-wrapper.style-3 .top-right .social-icon {
-  background-color: var(--theme2);
-  padding: 18px 25px;
+  background-color: transparent;
+  padding: 10px 0;
 }
 
 .header-top-wrapper.style-3 .top-right .social-icon a {
-  color: var(--white);
+  color: #000;
 }
 
 .header-top-wrapper.color-style .top-left {
@@ -4407,7 +4438,7 @@ input.main-search-input::placeholder {
 }
 
 .counter-wrapper-2 .counter-items:not(:last-child) {
-  border-right: 1px solid #ffffff1a;
+  border-right: 1px solid #fff;
   padding-right: 80px;
 }
 
@@ -4602,7 +4633,7 @@ input.main-search-input::placeholder {
       -ms-flex-pack: justify;
           justify-content: space-between;
 }
-
+.grow-wrapper .circle-progress-bar-wrapper p{ color:#cdcdcd;}
 @media (max-width: 1199px) {
   .grow-wrapper .circle-progress-bar-wrapper {
     -ms-flex-wrap: wrap;
@@ -4699,7 +4730,7 @@ input.main-search-input::placeholder {
 
 .grow-wrapper .circle-progress-bar-wrapper .single-circle-bar .circle-bar .rotate {
   clip: rect(0 50px 100px 0);
-  background-color: var(--theme2) !important;
+  background-color: #29a3b7 !important;
 }
 
 .grow-wrapper .circle-progress-bar-wrapper .single-circle-bar .circle-bar .left {
@@ -4713,7 +4744,7 @@ input.main-search-input::placeholder {
   -webkit-transform: rotate(180deg);
   transform: rotate(180deg);
   opacity: 0;
-  background-color: var(--theme2) !important;
+  background-color: #29a3b7 !important;
 }
 
 .manage-it-wrapper .single-tab-items .nav {
@@ -5192,7 +5223,7 @@ input.main-search-input::placeholder {
 .about-wrapper .about-content .circle-progress-bar-wrapper.style-2 .single-circle-bar .circle-bar .left {
   clip: rect(0 50px 100px 0);
   opacity: 1;
-  background-color: var(--bg) !important;
+  background-color: var(--theme2) !important;
 }
 
 .about-wrapper .about-content .circle-progress-bar-wrapper.style-2 .single-circle-bar .circle-bar .right {
@@ -7727,7 +7758,7 @@ input.main-search-input::placeholder {
   text-align: center;
   font-size: 18px;
   display: inline-block;
-  background: var(--theme);
+  background: var(--theme2);
   color: var(--white);
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
@@ -7754,7 +7785,7 @@ input.main-search-input::placeholder {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   font-weight: 600;
-  color: var(--theme);
+  color: var(--theme2) !important;
   margin-top: 5px;
 }
 
@@ -8267,7 +8298,7 @@ input.main-search-input::placeholder {
 
 .faq-content.style-2 .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
   content: "\f077";
-  background: #00205B;
+  background: var(--theme2);
 }
 
 .faq-content.style-2 .accordion-item .accordion-collapse .accordion-body {
@@ -8747,13 +8778,13 @@ input.main-search-input::placeholder {
 
 .marquee-item.style-2 .text-slider {
   text-transform: capitalize;
-  font-size: 65px;
+  font-size: 25px;
   color: var(--header);
   margin-right: 40px;
   line-height: 0;
   height: 65px;
 }
-
+.home-marque img{ width:20px;}
 @media (max-width: 767px) {
   .marquee-item.style-2 .text-slider {
     font-size: 42px;
@@ -9306,7 +9337,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-wrapper-3 .testimonial-items .testimonial-content h3 {
-  font-size: 30px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 170%;
   border-bottom: 1px solid var(--border2);
@@ -9672,7 +9703,7 @@ input.main-search-input::placeholder {
 }
 
 .testimonial-wrapper-4 .testimonial-items .testimonial-content h3 {
-  font-size: 30px;
+  font-size: 15px;
   line-height: 180%;
   font-weight: 500;
 }

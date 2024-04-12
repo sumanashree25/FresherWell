@@ -294,7 +294,66 @@ Version: 1.0.0
 .book-call-outer .con{     color: #fff;     font-size: 15px;     margin-bottom: 25px;}
 .book-call-outer .container{ max-width:900px !important;}
 .book-call-outer img{     width: 200px;     display: block;     margin: 35px auto 0;}
-
+.our-approch-outer{ background: url(../img/our-approch-bg.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 100px !important; color:#fff;}
+.our-approch-outer .title-outer{     align-items: center;     display: flex;     justify-content: center;     background: #120b0b82; font-size: 30px;}
+.our-approch-outer .main-con-outer{     background: #120b0b57;}
+.our-approch-outer .main-con{ padding: 25px;}
+.our-approch-outer .con-1{ font-size: 16px;     margin-bottom: 20px;     color: #b1e2ff;}
+.our-approch-outer .bold-con{ font-size: 20px;     font-weight: bold;     line-height: 35px;     margin-bottom: 20px;}
+.our-approch-outer p{ font-size: 14px;     margin-bottom: 15px;}
+.ppc-service-outer .con-outer{ margin:0 0;     min-height: 647px;} 
+.why-digital-outer .banner img{width:100%;height: 527px;object-fit: cover;}
+.why-digital-outer .row > div{ padding:0 0;} 
+.why-digital-outer .con-outer{     background: #cccccc38;     padding: 20px;}
+.why-digital-outer .main-con-outer .title{ font-size: 30px;     color: #000;     font-weight: bold;     margin-bottom: 25px;     margin-top: 20px;}
+.why-con:after{ Content:""; display:table; clear:both;}
+.why-con > div{float: left;width: 48%;margin-right: 15px;margin-bottom: 15px;}
+.why-con > div:nth-child(2n){ margin-right:0;}
+.why-con .con-title{     font-weight: bold;     margin-bottom: 10px;}
+.why-con .des{ font-size:14px;}
+.why-digital-outer{ padding-top:0 !important;}
+.google-partner-outer{     padding: 84px 0;}
+.google-partner-outer .title{ line-height: 39px;}
+.bannd-logo{ overflow:hidden;     margin-top: 30px;}
+.bannd-logo > div{ float:left; width:20%; margin-right:10px;}
+.bannd-logo > div img{ width:100%;     height: 30px;}
+.overview-service-outer .con-outer{ margin:0 0 25px;     min-height: 564px;}
+.main-con-outer .social-logo{ display:flex; margin-top: 35px;}
+.main-con-outer .social-logo > div{
+    margin: 0 10px;
+}
+.main-con-outer .social-logo img{
+    width: 29px;
+    background: #fff;
+    padding: 2px;
+    border-radius: 5px;
+}
+.main-con-outer .social-logo .logo-1{ margin-left:0;}
+.overview-service-outer.advertising .con-outer{ min-height: 475px;}
+.grow-managed h2{ font-size: 35px;     padding: 0 100px;     line-height: 55px;     margin-bottom: 25px;}
+.grow-managed p{ font-size: 14px;     margin: 0 100px 20px;}
+.benifits-outer ul{
+    overflow: hidden;
+    margin-top: 50px;
+}
+.benifits-outer ul li{width: 23%;float: left;margin: 0 9px;padding: 15px;background: #00000063;min-height: 181px;border-radius: 5px;}
+.included-outer img{ width:100%;}
+.included-outer .sub-title{ font-weight: bold;     color: #000;     font-size: 20px; margin-bottom:20px;}
+.included-outer .main-title{ font-size: 35px;     color: #000;     margin-bottom: 40px;}
+.included-outer .main-con-outer{     margin-top: 150px;}
+.cutting-edge-outer .main-con-outer{
+    margin-top: 150px;
+    padding-right: 150px;
+}
+.cutting-edge-outer .main-con-outer .main-title{font-size: 28px;color: #000;font-weight: bold;line-height: 40px;margin-bottom: 20px;position:relative;}
+.cutting-edge-outer .main-con-outer .main-title:after{Content:"";display:block;clear:both;background:url(../img/Shape-dots-arrow-right.svg) no-repeat 0 0;width: 200px;height: 200px;background-size: 100%;position: absolute;top: -118px;right: -120px;}
+.cutting-edge-con-inr{padding-bottom:15px;border-bottom:1px solid #ccc;margin-top: 15px;}
+.cutting-edge-con-inr.left-padding{padding-left: 33px;position: relative;}
+.cutting-edge-con-inr.left-padding:before{Content:"";display:block;clear:both;width: 20px;height: 20px;background:#1836b2;border-radius:100%;position: absolute;left: 0;top: 4px;}
+.cutting-edge-con-inr.left-padding:after{Content:"";display:block;clear:both;width: 7px;height: 7px;background:#fff;border-radius:100%;position: absolute;left: 7px;top: 9.9px;}
+.cutting-edge-con-inr .title{font-weight:bold;margin-bottom: 10px;}
+.cutting-edge-outer .container{height: 400px;     overflow: auto;     padding-right: 50px;}
+.cutting-edge-con-outer{ margin-top: 65px;}
 @media (max-width: 575px) {
   .theme-btn i {
     margin-left: 3px;
@@ -2825,7 +2884,7 @@ input.main-search-input::placeholder {
 
 .breadcrumb-wrapper .page-heading h1 {
   color: var(--white);
-  font-size: 70px;
+  font-size: 50px;
   position: relative;
   z-index: 9;
   line-height: 1.3;

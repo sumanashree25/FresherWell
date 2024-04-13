@@ -267,7 +267,7 @@ Version: 1.0.0
 .custom-service-outer .main-con-outer p{ margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li{margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li:before{ Content: "";     display: inline-block;     clear: both;     width: 5px;     height: 5px;     background: #000;     border-radius: 100%;     margin-right: 10px;     vertical-align: top;     margin-top: 12px;}
-.deliver-pro-outer{margin-top: 100px;background: #86c7ed;position:relative;margin-bottom: 137px;}
+.deliver-pro-outer{margin-top: 100px;background:url(../img/deliver-bg-img.jpg) no-repeat 0 0; position:relative;margin-bottom: 137px;     background-size: cover;}
 .deliver-pro-outer:after{Content:"";display:block;clear:both;background:url(../img/img-we-deliver.png) no-repeat 0 0;z-index: 9;width: 600px;height: 600px;background-size: 100%;position: absolute;top: -108px;right: 74px;}
 .deliver-pro-outer .title{ font-size: 50px;     color: #fff;     line-height: 63px;     font-weight: bold;     margin-bottom: 42px;}
 .tecnology-icon-outer .text-slider.style-height{ height:126px;}
@@ -302,7 +302,7 @@ Version: 1.0.0
 .our-approch-outer .bold-con{ font-size: 20px;     font-weight: bold;     line-height: 35px;     margin-bottom: 20px;}
 .our-approch-outer p{ font-size: 14px;     margin-bottom: 15px;}
 .ppc-service-outer .con-outer{ margin:0 0;     min-height: 647px;} 
-.why-digital-outer .banner img{width:100%;height: 527px;object-fit: cover;}
+.why-digital-outer .banner img{width:100%;height: 475px;object-fit: cover;}
 .why-digital-outer .row > div{ padding:0 0;} 
 .why-digital-outer .con-outer{     background: #cccccc38;     padding: 20px;}
 .why-digital-outer .main-con-outer .title{ font-size: 30px;     color: #000;     font-weight: bold;     margin-bottom: 25px;     margin-top: 20px;}
@@ -342,10 +342,10 @@ Version: 1.0.0
 .included-outer .main-title{ font-size: 35px;     color: #000;     margin-bottom: 40px;}
 .included-outer .main-con-outer{     margin-top: 150px;}
 .cutting-edge-outer .main-con-outer{
-    margin-top: 150px;
+    margin-top: 100px;
     padding-right: 150px;
 }
-.cutting-edge-outer .main-con-outer .main-title{font-size: 28px;color: #000;font-weight: bold;line-height: 40px;margin-bottom: 20px;position:relative;}
+.cutting-edge-outer .main-con-outer .main-title{font-size: 26px;color: #000;font-weight: bold;line-height: 40px;margin-bottom: 20px;position:relative;}
 .cutting-edge-outer .main-con-outer .main-title:after{Content:"";display:block;clear:both;background:url(../img/Shape-dots-arrow-right.svg) no-repeat 0 0;width: 200px;height: 200px;background-size: 100%;position: absolute;top: -118px;right: -120px;}
 .cutting-edge-con-inr{padding-bottom:15px;border-bottom:1px solid #ccc;margin-top: 15px;}
 .cutting-edge-con-inr.left-padding{padding-left: 33px;position: relative;}
@@ -353,7 +353,13 @@ Version: 1.0.0
 .cutting-edge-con-inr.left-padding:after{Content:"";display:block;clear:both;width: 7px;height: 7px;background:#fff;border-radius:100%;position: absolute;left: 7px;top: 9.9px;}
 .cutting-edge-con-inr .title{font-weight:bold;margin-bottom: 10px;}
 .cutting-edge-outer .container{height: 400px;     overflow: auto;     padding-right: 50px;}
-.cutting-edge-con-outer{ margin-top: 65px;}
+.cutting-edge-outer.it-security-outer .container{    height: 445px;}
+.cutting-edge-outer.connectivity-outer .container{    height: 445px;}
+.cutting-edge-outer.it-strategy-outer .container{    height: 420px;}
+.why-digital-outer .con-title .icon{margin-right: 15px;}
+.it-security-outer{padding:0 0 !important;margin-top: 25px;}
+.connectivity-outer{padding: 20px 0 !important;transparent;background-image: linear-gradient(180deg, #d7e4f5 0%, #E9E6EF 100%);margin: 25px 0;}
+.it-strategy-outer{padding:0 0 !important;margin-bottom: 50px;}
 @media (max-width: 575px) {
   .theme-btn i {
     margin-left: 3px;
@@ -1568,7 +1574,7 @@ input.main-search-input::placeholder {
 
 @media (max-width: 1399px) {
   .header-top-section-3 .container-fluid {
-    padding: 0;
+    padding: 0 30px;
   }
 }
 
@@ -2471,8 +2477,10 @@ input.main-search-input::placeholder {
 
 @media (max-width: 1399px) {
   .header-3 .container-fluid {
-    padding: 0 20px;
+    padding: 0 30px;
   }
+  .section-title h2{ font-size: 25px;}
+  body{     font-size: 14px;}
 }
 
 .header-3 .mega-menu-wrapper .header-main .header-left .main-menu ul li a:hover {
@@ -8041,7 +8049,7 @@ input.main-search-input::placeholder {
 }
 
 .single-team-items.style-2 .team-content h5 a {
-  color: var(--white);
+  color: #000;
 }
 
 .single-team-items.style-2 .team-content h5 a:hover {
@@ -12235,7 +12243,6 @@ p.sticky-label {
   padding: 20px 30px;
   color: var(--text);
   background-color: transparent;
-  text-transform: capitalize;
   font-weight: 500;
   border-bottom: 1px solid var(--border2);
 }

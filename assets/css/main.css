@@ -134,70 +134,7 @@ padding: 75px 20% 85px 10%;
 .font--jakarta h1, .font--jakarta h2{ color:#fff;     line-height: 1.25;     font-size: 3rem;     font-weight: 700;}
 .color--white, .color--white h1, .color--white h2, .color--white h3, .color--white h4, .color--white h5, .color--white h6, .color--white p, .color--white a, .color--white li, .color--white i, .color--white span{ color:#fff;}
 .home-service-outer .odd{background: #fff;box-shadow: 0 12px 10px #000000ad;}
-.home-service-outer .even{<
-    div class="choose-us-item-02 odd">
-                                    <div class="choose-us-img">
-                                        <img src="assets/img/ser-icon9.png" alt="">
-                                    </div>
-                                    <div class="choose-us-content">
-                                        <h3 class="title"><a href="#">CUSTOM SOFTWARE</a></h3>
-                                        <ul>
-           <li><a href="#">Web applications</a></li>
-           <li><a href="#">Mobile applications</a></li>
-           <li><a href="#">ERP development</a></li>
-           <li><a href="#">Enterprise architecture</a></li>
-           <li><a href="#">CMS/DXP platforms</a></li>
-           <li><a href="#">White label software &amp;
-    services</a></li>
-           <li><a href="#">Outsourced Product Development</a></li>
-           <li><a href="#">API Development</a></li>
-           <li><a href="#">Legacy Application Migration</a></li>
-           <li><a href="#">Intranets/Extranets</a></li>
-    
-          </ul>
-          <div class="read-more-btn">
-           <a href="custom-software.html" class="theme-btn theme-btn-2" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-            <span>
-             Read More
-             <i class="fas fa-chevron-right"></i>
-            </span>
-           </a>
-          </div>
-                                    </div>
-                                </div>;
-<
-    div class="choose-us-item-02 odd">
-                                    <div class="choose-us-img">
-                                        <img src="assets/img/ser-icon9.png" alt="">
-                                    </div>
-                                    <div class="choose-us-content">
-                                        <h3 class="title"><a href="#">CUSTOM SOFTWARE</a></h3>
-                                        <ul>
-           <li><a href="#">Web applications</a></li>
-           <li><a href="#">Mobile applications</a></li>
-           <li><a href="#">ERP development</a></li>
-           <li><a href="#">Enterprise architecture</a></li>
-           <li><a href="#">CMS/DXP platforms</a></li>
-           <li><a href="#">White label software &amp;
-    services</a></li>
-           <li><a href="#">Outsourced Product Development</a></li>
-           <li><a href="#">API Development</a></li>
-           <li><a href="#">Legacy Application Migration</a></li>
-           <li><a href="#">Intranets/Extranets</a></li>
-    
-          </ul>
-          <div class="read-more-btn">
-           <a href="custom-software.html" class="theme-btn theme-btn-2" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
-            <span>
-             Read More
-             <i class="fas fa-chevron-right"></i>
-            </span>
-           </a>
-          </div>
-                                    </div>
-                                </div>;
-    box-shadow: 0 12px 10px #000000ad;
-}
+.home-service-outer .even{background: #fff;box-shadow: 0 12px 10px #000000ad;}
 .home-service-outer .row > div{/* padding:0 !important; */text-align: center;}
 .service-section h2 ,.service-section p, .service-section .section-title span{color: #000 !important;}
 .service-section .choose-us-item-02 .choose-us-content p{color: #1836b2 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;font-weight: bold;}
@@ -248,6 +185,9 @@ padding: 75px 20% 85px 10%;
 .how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
 .grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
+.advantage-outer .con{ color:#000;}
+.innovative-slider-outer .con-outer,.lead-bright-think-outer .con-outer{ box-shadow: 0 10px 15px #000000bd !important;     text-align: center;}
+.innovative-slider-outer .title,.lead-bright-think-outer .title{ color: #7d023d !important;}
 
 /*---------services----------*/
 .service-sec-1{ padding-top:50px; text-align:center;}
@@ -266,17 +206,27 @@ padding: 75px 20% 85px 10%;
 .why-choose-us-outer .con{font-size: 14px;margin-bottom: 25px;padding-right: 36px;}
 .why-choose-us-outer .read-more-btn a{ font-size: 14px;     padding: 13px 15px;     font-weight: normal;}
 /*------cloud--------*/
+.breadcrumb-wrapper.digital-breadcrumb:before{ background: #00000000 !important;}
+.breadcrumb-wrapper.digital-breadcrumb .page-heading h1{     color: #7d023d; }
+.breadcrumb-wrapper.digital-breadcrumb .page-heading h1 span{     color: #000;     line-height: 25px;     font-size: 15px;}
+.mobile-page-outer{ background: url(../../assets/img/mobile-page-bg.jpg) no-repeat 0 0; background-size: cover;}
+.digital-marketing-page-outer{background: url(../../assets/img/digital-market-page-bg.jpg) no-repeat 0 0; background-size: cover;}
+.our-approch-outer .title-outer .title .img-icon img{ width: 170px;     margin: -35px auto 0;}
+.cloud-page-outer{ background: url(../../assets/img/colud-page-bg.jpg) no-repeat 0 0; background-size: cover;}
+.innovative-slider-outer .main-con-outer{ min-height: 346px;}
+.innovative-slider-outer.innovative-slider-outer-2 .main-con-outer{ min-height: 288px;}
 .cloud-sec-1{ padding-top:0; position:relative;}
 .cloud-sec-1 .cloud-main-banner img{ width: 100%;     opacity: 0.2;}
 .cloud-sec-1 .con-outer{ position: absolute;     top: 50%;     transform: translate(0px, -50%);}
-.cloud-sec-1 .title{ font-size: 35px;     color: #000;     font-weight: bold;     line-height: 48px; margin: 20px 0;}
+.cloud-sec-1 .title{ font-size: 35px;     color: #7d023d;     font-weight: bold;     line-height: 48px; margin: 20px 0; }
+.cloud-sec-1 .con{ color:#1836b2;}
 .claranet-outer{ background: #cccccc26;     text-align: center;}
 .claranet-outer .title{ color: #000;     font-size: 35px;     font-weight: bold;     margin-top: 30px;}
 .subscribe-outer .title{     text-align: center;     font-size: 40px;     color: #7d023d;     margin-bottom: 25px;     line-height: 55px;}
 .subscribe-outer .title span{     display: block;     font-size: 22px;     color: #1836b2;}
 .subscribe-outer .con{     text-align: center;     margin-bottom: 50px;}
 .subscribe-outer .row .con{margin-bottom:0;font-size: 14px;}
-.subscribe-outer .con-inr{text-align: center;box-shadow: 0 0 6px #00000038;padding: 20px;     min-height: 347px;}
+.subscribe-outer .con-inr{text-align: center;box-shadow: 0 6px 20px #000000cf;padding: 20px;     min-height: 347px;     background: #fff;}
 .subscribe-outer .con-inr .icon{ margin-bottom:20px}
 .subscribe-outer .con-inr .icon img{ width:80px;}
 .subscribe-outer .row .con.boldfont{ font-weight:bold; margin-bottom:10px;}
@@ -323,9 +273,9 @@ padding: 75px 20% 85px 10%;
     text-align: center;
 }
 .bright-think-outer img{ width:100%; display:block;}
-.bright-think-outer .con-outer{ margin: 0 13px 60px;     box-shadow: 0 0 10px #00000030; }
+.bright-think-outer .con-outer{ margin: 0 13px 60px;     box-shadow: 0 13px 15px #000000bf; }
 .bright-think-outer .main-con-outer{ padding: 15px 20px; background: #fff;}
-.bright-think-outer .title{     font-size: 20px;     line-height: 36px;     font-weight: bold;     color: #000;     margin-bottom: 15px;}
+.bright-think-outer .title{font-size: 20px;line-height: 36px;font-weight: bold;color: #7d023d;margin-bottom: 15px;}
 .bright-think-outer p{}
 .competitive-outer.move-competitive-outer .con-outer{background: url(../img/MOVE_background-banner.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
 .competitive-outer.lead-competitive-outer .con-outer{background: url(../img/LEAD_background-banner.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
@@ -335,7 +285,7 @@ padding: 75px 20% 85px 10%;
 .secure-cloud-outer .con{color: #fff;font-size: 20px;width: 800px;margin-top: 30px;line-height: 43px;font-weight: 300;}
 .custom-service-outer .main-con-outer p{ margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li{margin-bottom:10px;}
-.custom-service-outer .main-con-outer ul li:before{ Content: "";     display: inline-block;     clear: both;     width: 5px;     height: 5px;     background: #000;     border-radius: 100%;     margin-right: 10px;     vertical-align: top;     margin-top: 12px;}
+.custom-service-outer .main-con-outer ul li:before{Content: "";display: inline-block;clear: both;width: 0;height: 5px;background: #000;border-radius: 100%;margin-right: 10px;vertical-align: top;margin-top: 12px;}
 .deliver-pro-outer{margin-top: 50px;background:url(../img/deliver-bg-img.jpg) no-repeat 0 0;position:relative;margin-bottom: 0;background-size: cover;}
 .deliver-pro-outer:after{Content:"";display:block;clear:both;background:url(../img/img-we-deliver.png) no-repeat 0 0;z-index: 9;width: 600px;height: 600px;background-size: 100%;position: absolute;top: -108px;right: 74px;}
 .deliver-pro-outer .title{ font-size: 50px;     color: #fff;     line-height: 63px;     font-weight: bold;     margin-bottom: 42px;}
@@ -364,17 +314,17 @@ padding: 75px 20% 85px 10%;
 .book-call-outer .con{     color: #fff;     font-size: 15px;     margin-bottom: 25px;}
 .book-call-outer .container{ max-width:900px !important;}
 .book-call-outer img{     width: 200px;     display: block;     margin: 35px auto 0;}
-.our-approch-outer{ background: url(../img/our-approch-bg.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 100px !important; color:#fff;}
-.our-approch-outer .title-outer{     align-items: center;     display: flex;     justify-content: center;     background: #120b0b82; font-size: 30px;}
-.our-approch-outer .main-con-outer{     background: #120b0b57;}
+.our-approch-outer{}
+.our-approch-outer .title-outer{align-items: center;display: flex;justify-content: center;background: #fff;font-size: 30px;}
+.our-approch-outer .main-con-outer{background: #ffffffcf;}
 .our-approch-outer .main-con{ padding: 25px;}
-.our-approch-outer .con-1{ font-size: 16px;     margin-bottom: 20px;     color: #b1e2ff;}
+.our-approch-outer .con-1{font-size: 16px;margin-bottom: 20px;color: #7d023d;}
 .our-approch-outer .bold-con{ font-size: 20px;     font-weight: bold;     line-height: 35px;     margin-bottom: 20px;}
 .our-approch-outer p{ font-size: 14px;     margin-bottom: 15px;}
-.ppc-service-outer .con-outer{ margin:0 0;     min-height: 647px;} 
+.ppc-service-outer .con-outer{margin:0 0;min-height: 647px;background: #fff;} 
 .why-digital-outer .banner img{width:100%;height: 475px;object-fit: cover;}
 .why-digital-outer .row > div{ padding:0 0;} 
-.why-digital-outer .con-outer{     background: #cccccc38;     padding: 20px;}
+.why-digital-outer .con-outer{background: #fff;padding: 20px;}
 .why-digital-outer .main-con-outer .title{ font-size: 30px;     color: #000;     font-weight: bold;     margin-bottom: 25px;     margin-top: 20px;}
 .why-con:after{ Content:""; display:table; clear:both;}
 .why-con > div{float: left;width: 48%;margin-right: 15px;margin-bottom: 15px;}
@@ -387,7 +337,9 @@ padding: 75px 20% 85px 10%;
 .bannd-logo{ overflow:hidden;     margin-top: 30px;}
 .bannd-logo > div{ float:left; width:20%; margin-right:10px;}
 .bannd-logo > div img{ width:100%;     height: 30px;}
-.overview-service-outer .con-outer{ margin:0 0 25px;     min-height: 564px;}
+.overview-service-outer .con-outer{min-height: 564px;background: #fff;}
+.innovative-slider-outer.Creation-outer .main-con-outer{     min-height: 267px;}
+.advertising .main-con-outer{ min-height: 221px;}
 .main-con-outer .social-logo{ display:flex; margin-top: 35px;}
 .main-con-outer .social-logo > div{
     margin: 0 10px;
@@ -415,6 +367,11 @@ padding: 75px 20% 85px 10%;
     margin-top: 100px;
     padding-right: 150px;
 }
+.approch-outer .icon img{ margin:0 auto;}
+.breadcrumb-wrapper.manage-breadcrumb{     padding: 100px 0 200px;}
+.breadcrumb-wrapper.manage-breadcrumb .page-heading h1{ padding-left: 126px;
+    margin-top: -55px;     color: #7d023d; }
+.manage-breadcrumb:before{ background:transparent !important;}
 .cutting-edge-outer .main-con-outer .main-title{font-size: 26px;color: #000;font-weight: bold;line-height: 40px;margin-bottom: 20px;position:relative;}
 .cutting-edge-outer .main-con-outer .main-title:after{Content:"";display:block;clear:both;background:url(../img/Shape-dots-arrow-right.svg) no-repeat 0 0;width: 200px;height: 200px;background-size: 100%;position: absolute;top: -118px;right: -120px;}
 .cutting-edge-con-inr{padding-bottom:15px;border-bottom:1px solid #ccc;margin-top: 15px;}
@@ -439,11 +396,11 @@ padding: 75px 20% 85px 10%;
 .Stack-slider-outer{ margin-top:50px;}
 .faq-outer{ padding-top:0 !important;}
 .faq-outer .title{font-size: 35px;     text-align: center;     color: #000;     font-weight: bold;     margin-bottom: 35px;}
-.bright-think-outer.custom-service-outer .main-con-outer{     min-height: 560px;}
+.bright-think-outer.custom-service-outer .main-con-outer{min-height: 560px;text-align: center;}
 .bx-wrapper .bx-prev{ left: -30px !important;}
 .bx-wrapper .bx-next{ right:-30px !important;}
 .custom-service-outer .bx-pager,.managment-part-outer.approch-outer .bx-pager{ display:none;}
-.managment-part-outer.approch-outer .con-outer{ min-height: 451px;     margin: 0 15px 20px;}
+.managment-part-outer.approch-outer .con-outer{ min-height: 451px;     margin: 0 15px 20px;     text-align: center;}
 .managment-part-outer.approch-outer .bx-wrapper{ margin-bottom:0;}
 .managment-part-outer.approch-outer.cost-sec-outer .con-outer{min-height: 319px;padding-bottom: 0;text-align: center;}
 .service-section .section-title{ width:80%;}

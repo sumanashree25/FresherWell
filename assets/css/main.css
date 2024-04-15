@@ -47,12 +47,14 @@ Version: 1.0.0
 .techwix-choose-us-section-04 .choose-us-item-02 {
     border: 0;
     box-shadow: none;
-    min-height: 530px;
-    padding: 25px 25px 0px;
-    text-align: left;
+    min-height: 480px;
+    padding: 25px 11px 0px;
+    text-align: center;
     position: relative;
+    margin: 0 12px;
+    border-radius:5px;
 }
-.service-section .read-more-btn{margin-top:20px;position: absolute;bottom: 13px;left: 23px;}
+.service-section .read-more-btn{margin-top:20px;position: absolute;bottom: 13px;left: 50%;transform: translate(-50%, 0);}
 .service-section .read-more-btn a{font-size: 14px;padding: 10px 10px;background: #1836b2 !important;}
 .service-section .read-more-btn .theme-btn i{ font-size: 10px;}
 .choose-us-item-02 {
@@ -74,7 +76,7 @@ Version: 1.0.0
 
 .theme-btn {
   background-color: #1836b2 !important;
-  font-weight: 700;
+  font-weight: 400;
   color: var(--white);
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
@@ -100,39 +102,105 @@ Version: 1.0.0
     text-align: center;
 }
 .bg--03 {
-    background-image: url(../../assets/img/bg-03.jpg);
+    background-image: url(../../assets/img/SUSTAINABILITY.jpg);
 	background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
 	background-attachment: fixed !important;
 }
 .banner-3-wrapper .banner-overlay {
-    padding: 75px 20% 85px;
+padding: 75px 20% 85px 10%;
+    text-align: left;
 }
 .banner-overlay {
     width: 100%;
     height: 100%;
 }
-.starting-fresherwells h2{ line-height: 75px;}
+.starting-fresherwells h2{ line-height: 50px;     margin-bottom: 30px;     font-size: 40px;}
 .starting-fresherwells a{
     padding: 0.8rem 1.7rem;
     color: #fff !important;
     border-color: #1a3252 !important;
     background-color: #1a3252 !important;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 400;
+    margin-top: 7px;
+    margin-bottom: 5px;
     }
 .starting-fresherwells a:hover{color: #fff !important;
     background-color: transparent !important;
     border-color: #fff !important;}
-.starting-fresherwells p{ font-size: 24px;     margin: 20px 0;}
+.starting-fresherwells p{ font-size: 20px;     margin: 20px 0;}
 .font--jakarta h1, .font--jakarta h2{ color:#fff;     line-height: 1.25;     font-size: 3rem;     font-weight: 700;}
 .color--white, .color--white h1, .color--white h2, .color--white h3, .color--white h4, .color--white h5, .color--white h6, .color--white p, .color--white a, .color--white li, .color--white i, .color--white span{ color:#fff;}
-.home-service-outer .odd{background: #ffffffe8;}
-.home-service-outer .even{ background: #ffffff9c;}
-.home-service-outer .row > div{ padding:0 !important;}
-.service-section h2 ,.service-section p, .service-section .section-title span{ color:#fff !important;}
-.service-section .choose-us-item-02 .choose-us-content p{color:#000 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;}
+.home-service-outer .odd{background: #fff;box-shadow: 0 12px 10px #000000ad;}
+.home-service-outer .even{<
+    div class="choose-us-item-02 odd">
+                                    <div class="choose-us-img">
+                                        <img src="assets/img/ser-icon9.png" alt="">
+                                    </div>
+                                    <div class="choose-us-content">
+                                        <h3 class="title"><a href="#">CUSTOM SOFTWARE</a></h3>
+                                        <ul>
+           <li><a href="#">Web applications</a></li>
+           <li><a href="#">Mobile applications</a></li>
+           <li><a href="#">ERP development</a></li>
+           <li><a href="#">Enterprise architecture</a></li>
+           <li><a href="#">CMS/DXP platforms</a></li>
+           <li><a href="#">White label software &amp;
+    services</a></li>
+           <li><a href="#">Outsourced Product Development</a></li>
+           <li><a href="#">API Development</a></li>
+           <li><a href="#">Legacy Application Migration</a></li>
+           <li><a href="#">Intranets/Extranets</a></li>
+    
+          </ul>
+          <div class="read-more-btn">
+           <a href="custom-software.html" class="theme-btn theme-btn-2" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+            <span>
+             Read More
+             <i class="fas fa-chevron-right"></i>
+            </span>
+           </a>
+          </div>
+                                    </div>
+                                </div>;
+<
+    div class="choose-us-item-02 odd">
+                                    <div class="choose-us-img">
+                                        <img src="assets/img/ser-icon9.png" alt="">
+                                    </div>
+                                    <div class="choose-us-content">
+                                        <h3 class="title"><a href="#">CUSTOM SOFTWARE</a></h3>
+                                        <ul>
+           <li><a href="#">Web applications</a></li>
+           <li><a href="#">Mobile applications</a></li>
+           <li><a href="#">ERP development</a></li>
+           <li><a href="#">Enterprise architecture</a></li>
+           <li><a href="#">CMS/DXP platforms</a></li>
+           <li><a href="#">White label software &amp;
+    services</a></li>
+           <li><a href="#">Outsourced Product Development</a></li>
+           <li><a href="#">API Development</a></li>
+           <li><a href="#">Legacy Application Migration</a></li>
+           <li><a href="#">Intranets/Extranets</a></li>
+    
+          </ul>
+          <div class="read-more-btn">
+           <a href="custom-software.html" class="theme-btn theme-btn-2" data-wow-delay=".5s" style="visibility: visible; animation-delay: 0.5s; animation-name: fadeInUp;">
+            <span>
+             Read More
+             <i class="fas fa-chevron-right"></i>
+            </span>
+           </a>
+          </div>
+                                    </div>
+                                </div>;
+    box-shadow: 0 12px 10px #000000ad;
+}
+.home-service-outer .row > div{/* padding:0 !important; */text-align: center;}
+.service-section h2 ,.service-section p, .service-section .section-title span{color: #000 !important;}
+.service-section .choose-us-item-02 .choose-us-content p{color: #1836b2 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;font-weight: bold;}
 .project-complete-outer:before{ display:none;}
 .project-complete-outer	{position: relative;
     background: url(../img/home-service-bg.jpg) no-repeat 0 0;
@@ -156,7 +224,7 @@ Version: 1.0.0
 .home-service-outer ul li{margin-bottom: 0;position: relative;padding-left: 10px;}
 .home-service-outer ul li.bold{font-weight: bold;color: #000;padding-left: 0;}
 .home-service-outer ul li.bold:before{ display:none;}
-.home-service-outer ul li:before{Content:"";display:inline-block;clear:both;width: 5px;position: absolute;height: 5px;left: 0;background:#000;vertical-align:top;border-radius:100%;margin-top: 13px;margin-right: 12px;}
+.home-service-outer ul li:before{Content:"";display:inline-block;clear:both;width: 0;position: absolute;height: 5px;left: 0;background:#000;vertical-align:top;border-radius:100%;margin-top: 13px;margin-right: 12px;}
 /*---------about us---------*/
 .about-main-title{     text-align: center;     padding: 0 100px;}
 .about-section.Begining-outer .container{ max-width:800px;}
@@ -179,7 +247,7 @@ Version: 1.0.0
 .how-we-do-outer .con{ padding-right:50px; padding-top: 50px;}
 .how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
-.grow-business-outer{ padding-top:0 !important; padding-bottom:0 !important;}
+.grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
 
 /*---------services----------*/
 .service-sec-1{ padding-top:50px; text-align:center;}
@@ -189,9 +257,9 @@ Version: 1.0.0
 .comprehensivesection .title{ padding:0 0;}
 .comprehensivesection .title{     color: #000;     font-size: 40px;     font-weight: bold;     line-height: 51px;     margin-bottom: 20px;}
 .comprehensivesection .con{ padding-right:40px;}
-.managment-part-outer{     background-color: transparent;     background-image: linear-gradient(180deg, #AFC6E6 0%, #E9E6EF 100%);}
-.managment-part-outer .con-outer{     background: #fff;     padding: 20px;     border-radius: 4px;     box-shadow: 0 0 6px #00000029;     margin-bottom: 20px; min-height: 250px;}
-.managment-part-outer .title{color: #000;font-weight: bold;margin: 15px 0;font-size: 18px;}
+.managment-part-outer{background-color: transparent;/* background-image: linear-gradient(180deg, #AFC6E6 0%, #E9E6EF 100%); */}
+.managment-part-outer .con-outer{background: #fff;padding: 20px;border-radius: 4px;box-shadow: 0 9px 16px #000000bd;margin-bottom: 20px;min-height: 250px;}
+.managment-part-outer .title{color: #7d023d;font-weight: bold;margin: 15px 0;font-size: 21px;}
 .managment-part-outer .con{font-size: 13px;line-height: 22px;margin-bottom: 15px;}
 .managment-part-outer .read-more-btn a{ font-size: 10px;     padding: 10px 10px;     background: #1836b2 !important; }
 .why-choose-us-outer .title{color: #000;font-size: 40px;font-weight: bold;line-height: 51px;margin-bottom: 25px;margin-top: 25px;}
@@ -204,7 +272,8 @@ Version: 1.0.0
 .cloud-sec-1 .title{ font-size: 35px;     color: #000;     font-weight: bold;     line-height: 48px; margin: 20px 0;}
 .claranet-outer{ background: #cccccc26;     text-align: center;}
 .claranet-outer .title{ color: #000;     font-size: 35px;     font-weight: bold;     margin-top: 30px;}
-.subscribe-outer .title{     text-align: center;     font-size: 30px;     color: #3a3a3a;     margin-bottom: 25px;}
+.subscribe-outer .title{     text-align: center;     font-size: 40px;     color: #7d023d;     margin-bottom: 25px;     line-height: 55px;}
+.subscribe-outer .title span{     display: block;     font-size: 22px;     color: #1836b2;}
 .subscribe-outer .con{     text-align: center;     margin-bottom: 50px;}
 .subscribe-outer .row .con{margin-bottom:0;font-size: 14px;}
 .subscribe-outer .con-inr{text-align: center;box-shadow: 0 0 6px #00000038;padding: 20px;     min-height: 347px;}
@@ -254,7 +323,7 @@ Version: 1.0.0
     text-align: center;
 }
 .bright-think-outer img{ width:100%; display:block;}
-.bright-think-outer .con-outer{ margin: 0 25px 60px;     box-shadow: 0 0 10px #00000030;}
+.bright-think-outer .con-outer{ margin: 0 13px 60px;     box-shadow: 0 0 10px #00000030; }
 .bright-think-outer .main-con-outer{ padding: 15px 20px; background: #fff;}
 .bright-think-outer .title{     font-size: 20px;     line-height: 36px;     font-weight: bold;     color: #000;     margin-bottom: 15px;}
 .bright-think-outer p{}
@@ -267,7 +336,7 @@ Version: 1.0.0
 .custom-service-outer .main-con-outer p{ margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li{margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li:before{ Content: "";     display: inline-block;     clear: both;     width: 5px;     height: 5px;     background: #000;     border-radius: 100%;     margin-right: 10px;     vertical-align: top;     margin-top: 12px;}
-.deliver-pro-outer{margin-top: 100px;background:url(../img/deliver-bg-img.jpg) no-repeat 0 0; position:relative;margin-bottom: 137px;     background-size: cover;}
+.deliver-pro-outer{margin-top: 50px;background:url(../img/deliver-bg-img.jpg) no-repeat 0 0;position:relative;margin-bottom: 0;background-size: cover;}
 .deliver-pro-outer:after{Content:"";display:block;clear:both;background:url(../img/img-we-deliver.png) no-repeat 0 0;z-index: 9;width: 600px;height: 600px;background-size: 100%;position: absolute;top: -108px;right: 74px;}
 .deliver-pro-outer .title{ font-size: 50px;     color: #fff;     line-height: 63px;     font-weight: bold;     margin-bottom: 42px;}
 .tecnology-icon-outer .text-slider.style-height{ height:126px;}
@@ -282,9 +351,10 @@ Version: 1.0.0
 .water-group-service{     background: #ccc3; padding-top: 0 !important;}
 .water-group-service .con-outer{ margin-bottom:0 !important;     min-height: 459px;     background: #fff;}
 .review-services-outer .title{     margin-top: 89px;}
-.approch-outer .main-title{     text-align: center;     font-size: 35px;     font-weight: bold;     margin-bottom: 53px;     color: #000;}
+.approch-outer .main-title{text-align: center;font-size: 35px;font-weight: bold;margin-bottom: 53px;color: #720e3e;}
 .approch-outer .icon{ margin-bottom: 20px; }
-.managment-part-outer.approch-outer .con{       font-size: 15px;     line-height: 31px;     min-height: 250px;}
+.managment-part-outer.approch-outer .con{font-size: 18px;line-height: 30px;min-height: 250px;}
+.managment-part-outer.approch-outer.cost-sec-outer .con{min-height: 200px;}
 .about-mobile-outer p{font-size: 25px;     line-height: 38px; }
 .about-mobile-outer .title{ text-align: center;     font-size: 35px;     margin-bottom: 50px;}
 .about-mobile-outer{ padding-bottom:0 !important;}
@@ -360,6 +430,31 @@ Version: 1.0.0
 .it-security-outer{padding:0 0 !important;margin-top: 25px;}
 .connectivity-outer{padding: 20px 0 !important;transparent;background-image: linear-gradient(180deg, #d7e4f5 0%, #E9E6EF 100%);margin: 25px 0;}
 .it-strategy-outer{padding:0 0 !important;margin-bottom: 50px;}
+.breadcrumb-wrapper h1 span{     display: block;     font-size: 13px;     font-weight: normal;     margin-top: 10px;     color: #ccc;}
+.bx-wrapper{max-width:100% !important;box-shadow: none !important;border: 0 !important;background: transparent !important;}
+.tecnology-icon-outer .bx-wrapper img{ display:inline-block;}
+.tecnology-icon-outer .bx-wrapper{ text-align:center;}
+.tecnology-icon-outer .bx-controls-direction{ display:none;}
+.tecnology-icon-outer .bx-wrapper .bx-pager{     bottom: -45px;}
+.Stack-slider-outer{ margin-top:50px;}
+.faq-outer{ padding-top:0 !important;}
+.faq-outer .title{font-size: 35px;     text-align: center;     color: #000;     font-weight: bold;     margin-bottom: 35px;}
+.bright-think-outer.custom-service-outer .main-con-outer{     min-height: 560px;}
+.bx-wrapper .bx-prev{ left: -30px !important;}
+.bx-wrapper .bx-next{ right:-30px !important;}
+.custom-service-outer .bx-pager,.managment-part-outer.approch-outer .bx-pager{ display:none;}
+.managment-part-outer.approch-outer .con-outer{ min-height: 451px;     margin: 0 15px 20px;}
+.managment-part-outer.approch-outer .bx-wrapper{ margin-bottom:0;}
+.managment-part-outer.approch-outer.cost-sec-outer .con-outer{min-height: 319px;padding-bottom: 0;text-align: center;}
+.service-section .section-title{ width:80%;}
+.choose-us-content .title a{ color: #7d023d; font-weight:bold;}
+.choose-us-content li a{font-size: 15px;font-weight: 400;}
+.service-section p{font-size: 18px;line-height: 30px;font-weight: 400;}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: "Young Serif", serif !important; font-weight: 400 !important; font-style: normal;}
+body{ font-family: "Bree Serif", serif !important;
+  font-weight: 400 !important;
+  font-style: normal;}
+
 @media (max-width: 575px) {
   .theme-btn i {
     margin-left: 3px;
@@ -522,13 +617,15 @@ Version: 1.0.0
 /* --------------------------------------------
     Template Default Fonts & Fonts Styles
  ---------------------------------------------- */
+ .section-part-outer{ background:url(../../assets/img/body-bg.jpg) no-repeat 0 0; background-size: cover;}
+ .contact-section-2 .contact-wrapper-2{ background: #fff;     padding: 20px;}
 body {
   font-family: "Inter", sans-serif;
   font-size: 16px;
   font-weight: normal;
   line-height: 28px;
   color: var(--text);
-  background-color: var(--white);
+  background-color: #deeff538;
   padding: 0;
   margin: 0;
   overflow-x: hidden;
@@ -571,9 +668,9 @@ h6 {
 }
 
 h1 {
-  font-size: 85px;
+  font-size: 58px;
   font-weight: 600;
-  line-height: 106%;
+  line-height: 120%;
 }
 
 h2 {
@@ -986,7 +1083,7 @@ input.main-search-input::placeholder {
 .section-title {
   position: relative;
   z-index: 99;
-  margin-bottom: 30px;
+  margin-bottom: 18px;
   margin-top: -6px;
 }
 
@@ -1018,13 +1115,15 @@ input.main-search-input::placeholder {
 }
 
 .section-title.style-2 span {
-  color: var(--theme2);
+  color: #1836b2 !important;
   text-decoration: none;
   letter-spacing: 0;
 }
 
 .section-title.style-2 h2 {
   text-transform: uppercase;
+  color: #740b3d !important;
+  line-height: 40px;
 }
 
 .section-title.style-2 h2 span {
@@ -2015,7 +2114,7 @@ input.main-search-input::placeholder {
 .header-main .main-menu ul li a {
   display: inline-block;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--header);
   padding: 35px 0;
   text-align: left;
@@ -2067,7 +2166,7 @@ input.main-search-input::placeholder {
   position: relative;
   z-index: 11;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 400;
   color: var(--header);
   padding: 0 25px;
   padding-bottom: 11px;
@@ -3771,7 +3870,7 @@ input.main-search-input::placeholder {
 
 .hero-3 .slide-bg {
   position: relative;
-  padding: 190px 0;
+  padding: 84px 0;
 }
 
 @media (max-width: 1199px) {
@@ -6245,11 +6344,11 @@ input.main-search-input::placeholder {
 
 .service-section {
   position: relative;
-  background:url(../img/home-service-bg.jpg) no-repeat 0 0;
+  background: transparent;
   background-size: cover;
   background-position: 0 0;
-  padding: 100px 0;
-  margin-top: 35px;
+  padding: 50px 0 100px;
+  margin-top: 0px;
 }
 
 .service-section .shape-image {
@@ -8446,7 +8545,7 @@ input.main-search-input::placeholder {
   background-color: var(--white);
   border: 1px solid var(--border2);
   border-radius: 9px;
-  padding: 16px 30px;
+  padding: 10px 20px;
 }
 
 @media (max-width: 575px) {
@@ -8456,13 +8555,13 @@ input.main-search-input::placeholder {
 }
 
 .faq-content .accordion-item .accordion-header .accordion-button {
-  font-weight: bold;
+  font-weight: normal;
   color: var(--header);
   letter-spacing: -.2px;
   border: 0;
   border-radius: 0;
   -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
   background-color: transparent;
   padding: 10px 0;
   font-size: 20px;
@@ -8508,13 +8607,15 @@ input.main-search-input::placeholder {
 
 .faq-content.style-2 .accordion-item .accordion-header .accordion-button::after {
   content: "\f078";
-  width: 37px;
-  height: 37px;
-  background-color: #1836b2 !important;
+  width: 25px;
+  height: 25px;
+  background-color: #8fbbc7 !important;
   text-align: center;
-  line-height: 37px;
+  line-height: 28px;
+  border-radius: 100% !important;
   color: var(--white);
   border-radius: 4px;
+  font-size: 12px;
 }
 
 .faq-content.style-2 .accordion-item .accordion-header .accordion-button:not(.collapsed)::after {
@@ -12295,7 +12396,7 @@ p.sticky-label {
 }
 
 .footer-top {
-  padding: 50px 0;
+  padding: 15px 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -12355,7 +12456,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper {
-  padding: 0px 0 50px;
+  padding: 0px 0 25px;
   position: relative;
   z-index: 9;
 }
@@ -12377,7 +12478,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper .single-footer-widget .widget-head {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 @media (max-width: 575px) {
@@ -12554,7 +12655,7 @@ p.sticky-label {
 }
 
 .footer-widgets-wrapper .single-footer-widget .list-items li:not(:last-child) {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .footer-widgets-wrapper .single-footer-widget .list-items li a {

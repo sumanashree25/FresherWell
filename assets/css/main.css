@@ -34,7 +34,7 @@ Version: 1.0.0
   ---box-shadow: 0px 9px 21px rgba(0, 0, 0, 0.04);
 }
 .choose-us-item-02 .choose-us-content .title {
-    font-size: 20px;
+    font-size: 17px;
     line-height: 30px;
     margin-top: 20px;
     margin-bottom: 10px;
@@ -48,11 +48,11 @@ Version: 1.0.0
     border: 0;
     box-shadow: none;
     min-height: 480px;
-    padding: 25px 11px 0px;
+    padding: 10px;
     text-align: center;
     position: relative;
     margin: 0 12px;
-    border-radius:5px;
+    border-radius: 10px;
 }
 .service-section .read-more-btn{margin-top:20px;position: absolute;bottom: 13px;left: 50%;transform: translate(-50%, 0);}
 .service-section .read-more-btn a{font-size: 14px;padding: 10px 10px;background: #1836b2 !important;}
@@ -67,6 +67,10 @@ Version: 1.0.0
 }
 .choose-us-item-02 .choose-us-img img {
     transition: all 0.3s linear;
+    border: 2px solid #fff;
+    border-radius: 100%;
+    background: #fff;
+    padding: 3px;
 }
 .choose-us-item-02:hover .choose-us-img img {
     transform: scale(0.9);
@@ -133,11 +137,12 @@ padding: 75px 20% 85px 10%;
 .starting-fresherwells p{ font-size: 20px;     margin: 20px 0;}
 .font--jakarta h1, .font--jakarta h2{ color:#fff;     line-height: 1.25;     font-size: 3rem;     font-weight: 700;}
 .color--white, .color--white h1, .color--white h2, .color--white h3, .color--white h4, .color--white h5, .color--white h6, .color--white p, .color--white a, .color--white li, .color--white i, .color--white span{ color:#fff;}
-.home-service-outer .odd{background: #fff;box-shadow: 0 12px 10px #000000ad;}
-.home-service-outer .even{background: #fff;box-shadow: 0 12px 10px #000000ad;}
+.home-service-outer .odd{background: #fff;box-shadow: 0 12px 10px #000000ad;background-image: linear-gradient(to right, #5588cb, #e369a6);}
+.home-service-outer .even{background: #fff;box-shadow: 0 12px 10px #000000ad;background-image: linear-gradient(to right, #5784bd, #dd65a1);}
+.outer-border{border: 1.5px solid #fff;border-radius: 10px;padding: 15px;min-height: 530px;}
 .home-service-outer .row > div{/* padding:0 !important; */text-align: center;}
 .service-section h2 ,.service-section p, .service-section .section-title span{color: #000 !important;}
-.service-section .choose-us-item-02 .choose-us-content p{color: #1836b2 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;font-weight: bold;}
+.service-section .choose-us-item-02 .choose-us-content p{color: #000 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;font-weight: bold;}
 .project-complete-outer:before{ display:none;}
 .project-complete-outer	{position: relative;
     background: url(../img/home-service-bg.jpg) no-repeat 0 0;
@@ -159,7 +164,7 @@ padding: 75px 20% 85px 10%;
     }
 .home-marque{ padding:0 0 !important;}
 .home-service-outer ul li{margin-bottom: 0;position: relative;padding-left: 10px;}
-.home-service-outer ul li.bold{font-weight: bold;color: #000;padding-left: 0;}
+.home-service-outer ul li.bold{font-weight: bold;color: #02376c;padding-left: 0;}
 .home-service-outer ul li.bold:before{ display:none;}
 .home-service-outer ul li:before{Content:"";display:inline-block;clear:both;width: 0;position: absolute;height: 5px;left: 0;background:#000;vertical-align:top;border-radius:100%;margin-top: 13px;margin-right: 12px;}
 /*---------about us---------*/
@@ -170,18 +175,20 @@ padding: 75px 20% 85px 10%;
 .about-section .about-img-2{ padding: 20px 0 20px 50px; border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
 .about-section .con-right{ padding: 50px 0 20px 50px !important;    border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
 .about-section .con-left{ padding: 50px 50px 20px 0 !important;}
-.about-section .title h2{ font-size: 25px; margin-bottom: 20px;}
+.about-section .title h2{ font-size: 30px;     margin-bottom: 20px;     color: #7c003b;}
+.mob-img{ display:none;}
 .about-section .container .col-lg-6{ padding:0 0; position:relative;}
 .Circle{ width: 15px;     height: 15px;     border: 1px solid #4e29b7;     border-radius: 100%;     position: absolute;     top: 50%;     left: -8px;     background: #fff;}
 .about-section-top{ padding-top:90px;}
-.about-section.section-padding{ padding: 50px 0;} .Circle-point{ width: 5px;     height: 5px;     display: block;     background: #4e29b7;     border-radius: 100%;     vertical-align: top;     margin: 4px auto 0;}
+.about-section.section-padding{ padding: 50px 0; border:0;} 
+.Circle-point{ width: 5px;     height: 5px;     display: block;     background: #4e29b7;     border-radius: 100%;     vertical-align: top;     margin: 4px auto 0;}
 .section-title .con{ margin-top:20px;}
 .about-section.why-us-con .container{ max-width:700px; margin:0 auto;}
-.about-section.about-purpose-outer .container img{ width:auto;}
+.about-section.about-purpose-outer .container img{width:auto;margin: 0 auto;}
 .about-purpose-outer .icon{ margin-bottom:20px;}
-.about-purpose-outer .title{ font-size:20px; font-weight:700; margin-bottom:15px;     color: #000;}
+.about-purpose-outer .title{ font-size:25px; font-weight:700; margin-bottom:15px; color: #7d023d;;}
 .about-purpose-outer .con{ font-size: 14px; padding-right: 25px;}
-.how-we-do-outer .con{ padding-right:50px; padding-top: 50px;}
+.how-we-do-outer .con{margin-right: 30px;padding: 40px;background: #fff;box-shadow: 0 0 10px #000000b8;}
 .how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
 .grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
@@ -193,10 +200,10 @@ padding: 75px 20% 85px 10%;
 .service-sec-1{ padding-top:50px; text-align:center;}
 .service-title{     margin-bottom: 20px;}
 .service-banner-outer .con{     text-align: center;     width: 70%;     margin: 30px auto 0;}
-.comprehensivesection{     background: #f9f9f9;}
+.comprehensivesection{   }
 .comprehensivesection .title{ padding:0 0;}
 .comprehensivesection .title{     color: #000;     font-size: 40px;     font-weight: bold;     line-height: 51px;     margin-bottom: 20px;}
-.comprehensivesection .con{ padding-right:40px;}
+.comprehensivesection .con{ padding-right:0px; margin-bottom:15px; color: #131732;}
 .managment-part-outer{background-color: transparent;/* background-image: linear-gradient(180deg, #AFC6E6 0%, #E9E6EF 100%); */}
 .managment-part-outer .con-outer{background: #fff;padding: 20px;border-radius: 4px;box-shadow: 0 9px 16px #000000bd;margin-bottom: 20px;min-height: 250px;}
 .managment-part-outer .title{color: #7d023d;font-weight: bold;margin: 15px 0;font-size: 21px;}
@@ -205,13 +212,15 @@ padding: 75px 20% 85px 10%;
 .why-choose-us-outer .title{color: #000;font-size: 40px;font-weight: bold;line-height: 51px;margin-bottom: 25px;margin-top: 25px;}
 .why-choose-us-outer .con{font-size: 14px;margin-bottom: 25px;padding-right: 36px;}
 .why-choose-us-outer .read-more-btn a{ font-size: 14px;     padding: 13px 15px;     font-weight: normal;}
+.web-abn-outer{     padding-top: 120px !important;}
 /*------cloud--------*/
 .breadcrumb-wrapper.digital-breadcrumb:before{ background: #00000000 !important;}
 .breadcrumb-wrapper.digital-breadcrumb .page-heading h1{     color: #7d023d; }
 .breadcrumb-wrapper.digital-breadcrumb .page-heading h1 span{     color: #000;     line-height: 25px;     font-size: 15px;}
 .mobile-page-outer{ background: url(../../assets/img/mobile-page-bg.jpg) no-repeat 0 0; background-size: cover;}
+.it-manage-page-outer{ background: url(../../assets/img/management-bg.jpg) no-repeat 0 0; background-size: cover;}
 .digital-marketing-page-outer{background: url(../../assets/img/digital-market-page-bg.jpg) no-repeat 0 0; background-size: cover;}
-.our-approch-outer .title-outer .title .img-icon img{ width: 170px;     margin: -35px auto 0;}
+.our-approch-outer .title-outer .title .img-icon img{width: 100px;margin: -35px auto 0;}
 .cloud-page-outer{ background: url(../../assets/img/colud-page-bg.jpg) no-repeat 0 0; background-size: cover;}
 .innovative-slider-outer .main-con-outer{ min-height: 346px;}
 .innovative-slider-outer.innovative-slider-outer-2 .main-con-outer{ min-height: 288px;}
@@ -256,7 +265,7 @@ padding: 75px 20% 85px 10%;
     font-size: 16px;
     line-height: 37px;
 }
-.small-step-outer .title{text-align:center;color:#000;font-size:35px;margin-bottom: 35px;font-weight: bold;}
+.small-step-outer .title{text-align:center;color:#7d023d;font-size:35px;margin-bottom: 35px;font-weight: bold;}
 .small-step-outer .con{ text-align: center;     width: 70%;     margin: 0 auto;}
 .competitive-outer .title{padding:50px 0;background: #a066cb;text-align:center;font-size:35px;position:relative;color: #fff;}
 .competitive-outer .title:after{content: "";width: 0;height: 0;border-left: 32px solid transparent;border-right: 32px solid transparent;border-top: 32px solid #a066cb;position: absolute;-webkit-transform: translate(-50%, 30px);bottom: 1px;left: 50%;z-index: 99;}
@@ -273,7 +282,14 @@ padding: 75px 20% 85px 10%;
     text-align: center;
 }
 .bright-think-outer img{ width:100%; display:block;}
-.bright-think-outer .con-outer{ margin: 0 13px 60px;     box-shadow: 0 13px 15px #000000bf; }
+.bright-think-outer .con-outer{margin: 0 13px 60px;box-shadow: 0 8px 15px #00000047;background: #fff;}
+.bright-think-outer .telephone-slider-outer .con-outer{ min-height: 479px;     padding: 15px 20px; }
+.telephone-outer{ padding-bottom:0 !important;}
+.managment-part-outer.approch-outer .unlimited-service-slider-outer .con{ min-height:auto;}
+.managment-part-outer.approch-outer .unlimited-service-slider-outer .con-outer{ min-height: 380px;}
+.included-outer .row{ background: #fff;     box-shadow: 0 0 17px #0000003d ; border-radius: 5px;}
+.telephone-slider-outer .bx-pager{ display:none;}
+.telephone-slider-outer .bx-wrapper{ margin-bottom:0;}
 .bright-think-outer .main-con-outer{ padding: 15px 20px; background: #fff;}
 .bright-think-outer .title{font-size: 20px;line-height: 36px;font-weight: bold;color: #7d023d;margin-bottom: 15px;}
 .bright-think-outer p{}
@@ -315,7 +331,8 @@ padding: 75px 20% 85px 10%;
 .book-call-outer .container{ max-width:900px !important;}
 .book-call-outer img{     width: 200px;     display: block;     margin: 35px auto 0;}
 .our-approch-outer{}
-.our-approch-outer .title-outer{align-items: center;display: flex;justify-content: center;background: #fff;font-size: 30px;}
+.our-approch-outer .title-outer{align-items: center;display: flex;justify-content: center;background: #fff;font-size: 30px; color: #7e033d;}
+.our-approch-outer .img-icon{display: block;text-align: center;margin-bottom: 20px;margin-top: 24px;}
 .our-approch-outer .main-con-outer{background: #ffffffcf;}
 .our-approch-outer .main-con{ padding: 25px;}
 .our-approch-outer .con-1{font-size: 16px;margin-bottom: 20px;color: #7d023d;}
@@ -325,7 +342,7 @@ padding: 75px 20% 85px 10%;
 .why-digital-outer .banner img{width:100%;height: 475px;object-fit: cover;}
 .why-digital-outer .row > div{ padding:0 0;} 
 .why-digital-outer .con-outer{background: #fff;padding: 20px;}
-.why-digital-outer .main-con-outer .title{ font-size: 30px;     color: #000;     font-weight: bold;     margin-bottom: 25px;     margin-top: 20px;}
+.why-digital-outer .main-con-outer .title{ font-size: 30px;     color: #7d023d;     font-weight: bold;     margin-bottom: 25px;     margin-top: 20px;}
 .why-con:after{ Content:""; display:table; clear:both;}
 .why-con > div{float: left;width: 48%;margin-right: 15px;margin-bottom: 15px;}
 .why-con > div:nth-child(2n){ margin-right:0;}
@@ -361,13 +378,16 @@ padding: 75px 20% 85px 10%;
 .benifits-outer ul li{width: 23%;float: left;margin: 0 9px;padding: 15px;background: #00000063;min-height: 181px;border-radius: 5px;}
 .included-outer img{ width:100%;}
 .included-outer .sub-title{ font-weight: bold;     color: #000;     font-size: 20px; margin-bottom:20px;}
-.included-outer .main-title{ font-size: 35px;     color: #000;     margin-bottom: 40px;}
-.included-outer .main-con-outer{     margin-top: 150px;}
+.included-outer .main-title{ font-size: 40px;     color: #7d023d;     margin-bottom: 40px;     line-height: 50px;}
+.grow-managed .starting-fresherwells h2{ font-size: 40px;     padding: 0 0;     line-height: 63px;     margin-bottom: 25px;}
+.grow-managed .starting-fresherwells p{ font-size: 16px;     margin: 0 0 20px;     width: 600px;     line-height: 32px;}
+.included-outer .main-con-outer{  margin-top: 104px;     padding-left: 66px;}
 .cutting-edge-outer .main-con-outer{
     margin-top: 100px;
     padding-right: 150px;
 }
-.approch-outer .icon img{ margin:0 auto;}
+.bright-think-outer .telephone-slider-outer img{width: 80px;margin: 30px auto 20px;box-shadow: 0 0 10px #0000003d;border-radius: 100%;}
+.approch-outer .icon img{     margin: 0 auto; }
 .breadcrumb-wrapper.manage-breadcrumb{     padding: 100px 0 200px;}
 .breadcrumb-wrapper.manage-breadcrumb .page-heading h1{ padding-left: 126px;
     margin-top: -55px;     color: #7d023d; }
@@ -387,7 +407,7 @@ padding: 75px 20% 85px 10%;
 .it-security-outer{padding:0 0 !important;margin-top: 25px;}
 .connectivity-outer{padding: 20px 0 !important;transparent;background-image: linear-gradient(180deg, #d7e4f5 0%, #E9E6EF 100%);margin: 25px 0;}
 .it-strategy-outer{padding:0 0 !important;margin-bottom: 50px;}
-.breadcrumb-wrapper h1 span{     display: block;     font-size: 13px;     font-weight: normal;     margin-top: 10px;     color: #ccc;}
+.breadcrumb-wrapper h1 span{display: block;font-size: 13px;font-weight: normal;margin-top: 10px;color: #1836b2;}
 .bx-wrapper{max-width:100% !important;box-shadow: none !important;border: 0 !important;background: transparent !important;}
 .tecnology-icon-outer .bx-wrapper img{ display:inline-block;}
 .tecnology-icon-outer .bx-wrapper{ text-align:center;}
@@ -395,7 +415,7 @@ padding: 75px 20% 85px 10%;
 .tecnology-icon-outer .bx-wrapper .bx-pager{     bottom: -45px;}
 .Stack-slider-outer{ margin-top:50px;}
 .faq-outer{ padding-top:0 !important;}
-.faq-outer .title{font-size: 35px;     text-align: center;     color: #000;     font-weight: bold;     margin-bottom: 35px;}
+.faq-outer .title{font-size: 35px;     text-align: center;     color: #7e033e;     font-weight: bold;     margin-bottom: 35px;}
 .bright-think-outer.custom-service-outer .main-con-outer{min-height: 560px;text-align: center;}
 .bx-wrapper .bx-prev{ left: -30px !important;}
 .bx-wrapper .bx-next{ right:-30px !important;}
@@ -404,6 +424,7 @@ padding: 75px 20% 85px 10%;
 .managment-part-outer.approch-outer .bx-wrapper{ margin-bottom:0;}
 .managment-part-outer.approch-outer.cost-sec-outer .con-outer{min-height: 319px;padding-bottom: 0;text-align: center;}
 .service-section .section-title{ width:80%;}
+.home-service-section .title-section-area{ padding-bottom: 50px;}
 .choose-us-content .title a{ color: #7d023d; font-weight:bold;}
 .choose-us-content li a{font-size: 15px;font-weight: 400;}
 .service-section p{font-size: 18px;line-height: 30px;font-weight: 400;}
@@ -411,6 +432,232 @@ padding: 75px 20% 85px 10%;
 body{ font-family: "Bree Serif", serif !important;
   font-weight: 400 !important;
   font-style: normal;}
+  .included-outer{ background:#fff;}
+.about-main-title .section-title h2{     text-transform: capitalize;     line-height: 55px;     text-align: center;     font-size: 35px !important;     font-weight: bold !important;     margin-bottom: 53px;     color: #720e3e;}
+.about-purpose-outer .con-outer{text-align:center;background: #fff;padding: 20px;border-radius: 4px;box-shadow: 0 9px 16px #00000069;margin: 0 10px;min-height: 444px;}
+.telephone-slider-outer .bx-pager,.innovative-slider-outer .bx-pager{ display:none;}
+.managment-part-outer.approch-outer .solution-slider-outer .con-outer{     min-height: 508px;}
+.service-title h2{    color: #7d023d;     font-weight: bold;}
+.comprehensivesection .title{    color: #7d023d;     font-weight: bold; margin-top: 50px;}
+.comprehensive-img img{ width:100%;}
+.comprehensive-img{ padding-right:50px;}
+.why-choose-us-outer .title{     color: #7d023d;     font-weight: bold;}
+.service-section.home-service-section .section-title{ width: 50%;}
+.how-we-do-outer .section-title h2{ color: #7d023d;}
+.about-section.home-how-we-do .container img{     height: 432px; object-fit: cover;}
+.about-section.section-padding.home-how-we-do{ padding-bottom:0;}
+.contact-us-page-outer{     background: url(../../assets/img/mobile-page-bg.jpg) no-repeat 0 0;     background-size: cover;}
+.breadcrumb-wrapper.contact-breadcrumb:before{ display:none;}
+.breadcrumb-wrapper.contact-breadcrumb{ background-size:100%;     padding: 100px 0 150px;}
+.breadcrumb-wrapper.contact-breadcrumb .page-heading h1{     color: #7d023d;     margin-left: 100px;     margin-top: -50px;}
+.service-img img{ width:100%;}
+.home-service-part{overflow:hidden;position: relative;}
+.home-service-part:hover .con-outer{ transform: translateY(0px) !important; transition: opacity .65s cubic-bezier(.05,.2,.1,1), transform .65s cubic-bezier(.05,.2,.1,1);}
+.home-service-part:hover .service-img img{ transform: scale(1.2);     -webkit-transform: scale(1.2);     transition: transform 9s cubic-bezier(.1,.2,.7,1);}
+.home-service-part .service-img img{height:345px;object-fit: cover;border-radius: 5px;     transition: transform 1s ease, opacity .5s ease .25s;     transform: scale(1);     -webkit-transform: scale(1);}
+.home-service-part .service-img{ position:relative;}
+.home-service-part .service-img:after{content:"";display:block;clear:both;background-image: linear-gradient(#0000, #000000bd);position:absolute;top:0;border-radius: 5px;left:0;bottom:0;right:0;}
+.home-service-part:hover .service-img:after	{background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #204580 100%);}
+.home-service-part .con-outer{position:absolute;top:0;left:0;right:0;bottom:0;background: transparent;box-shadow: none;color: #fff;transform: translateY(193px);transition: opacity .65s cubic-bezier(.05,.2,.1,1), transform .65s cubic-bezier(.05,.2,.1,1);}
+.home-service-part .title{ color:#fff !important;     font-weight: 400;}
+.home-service-part .con-outer{ padding: 12px 9px;}
+.home-service-part .title{font-size: 27px !important;margin-bottom: 35px;}
+.home-service-outer .digital-trn  ul li{ line-height:25px;}
+.contact-content{ padding-left:45px;}
+.solution-service-effect,.mobile-our-effect{ padding:0 15px}
+.solution-service-effect .home-service-part .service-img img{ height:520px;}
+.solution-service-effect .home-service-part .con-outer{ transform: translateY(380px);}
+.mobile-our-effect .home-service-part .service-img img{ height:450px;}
+.mobile-our-effect .home-service-part .con-outer{ transform: translateY(308px);}
+.solution-ban img{ width:100%;}
+.comprehensivesection{ text-align:center;}
+
+@media (max-width: 1400px) and (min-width: 1200px){
+	.about-purpose-outer .con{ font-size:16px !important;}
+	.header-main .main-menu ul li a{     font-size: 17px !important;}
+	.hero-3 .slide-bg .hero-content h1 {     font-size: 50px !important;     line-height: 70px; }
+	.managment-part-outer.approch-outer .con-outer{ margin: 0 7px 20px;}
+	.managment-part-outer .title{     font-size: 20px;}
+	.managment-part-outer.approch-outer .con{     font-size: 16px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{     margin: 0 7px;}
+	.service-section .choose-us-item-02 .choose-us-content p{font-size: 9px;}
+	.choose-us-content li a{     font-size: 14px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{     min-height: 504px;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .form-clt{ flex-basis: 58% !important;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .theme-btn{     width: 119px !important;}
+	.footer-widgets-wrapper .single-footer-widget .widget-head h3{     font-size: 27px !important;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content .label-text{ font-size: 14px !important;}
+}
+
+@media (max-width: 1199px) and (min-width: 992px){
+	.header-main .logo img{ width:200px;}
+	.header-main .main-menu ul li a{     font-size: 15px !important;     padding: 20px 0 !important;}
+	.hero-3 .slide-bg .hero-content h1 {     font-size: 40px !important;     line-height: 60px !important; }
+	.hero-3 .slide-bg {     padding: 60px !important; }
+	.header-main .main-menu ul li .submenu li a{ padding: 7px 25px !important;}
+	.section-padding {     padding:50px 0 0 !important; }
+	.approch-outer .main-title{     font-size: 30px; margin-bottom: 40px;}
+	.managment-part-outer.approch-outer .con-outer{     margin: 0 0px 20px;}
+	.approch-outer .icon img{ width: 48px;     height: 50px;}
+	.managment-part-outer .title{ font-size: 17px;}
+	.managment-part-outer.approch-outer .con{     font-size: 14px;}
+	.service-section p{     font-size: 14px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{     margin: 0 0;}
+	.choose-us-item-02 .choose-us-content .title{ font-size: 14px;}
+	.service-section .choose-us-item-02 .choose-us-content p{ font-size: 9px;}
+	.choose-us-content li a{     font-size: 13px;}
+	.service-section{     padding: 50px 0 50px !important;}
+	.section-padding.grow-business-outer{ padding-top:0 !important;}
+	.banner-3-wrapper .banner-overlay {     padding: 75px 0 85px 0;     text-align: center; }
+	.techwix-choose-us-section-04 .choose-us-item-02{ min-height: 503px;}
+	.contact-section-2{ padding-bottom: 50px !important;}
+	.contact-section-2 .section-title h2{ font-size: 20px;}
+	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 15px !important;}
+	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .icon{ font-size: 20px !important;}
+	.contact-box{     padding: 0px 20px !important;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .form-clt {     -ms-flex-preferred-size: 70%;     flex-basis: 65% !important; }
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .theme-btn{     width: 112px !important;} 
+	.footer-widgets-wrapper {     padding: 0px 0 90px !important; }
+}
+@media (max-width: 991px) and (min-width: 769px){
+	.header-main .logo img{ width:200px;}
+	.header-main .main-menu ul li a{     font-size: 15px !important;     padding: 20px 0 !important;}
+	.hero-3 .slide-bg .hero-content h1 {         font-size: 30px !important;     line-height: 44px !important;     width: 400px;     margin: 0 auto; }
+	.managment-part-outer.approch-outer.cost-sec-outer .con {     min-height: auto; }
+	.managment-part-outer.approch-outer.cost-sec-outer .con-outer{     min-height: 273px;}
+	.service-section .section-title {     width: 47%; }
+	.home-service-outer .row > div{     margin-bottom: 23px;}
+	.starting-fresherwells h2{     width: 500px;     margin: 0 auto;}
+	.hero-3 .slide-bg {     padding: 60px !important; }
+	.header-main .main-menu ul li .submenu li a{ padding: 7px 25px !important;}
+	.section-padding {     padding:50px 0 0 !important; }
+	.approch-outer .main-title{     font-size: 30px; margin-bottom: 40px;}
+	.managment-part-outer.approch-outer .con-outer{     margin: 0 0px 20px;}
+	.approch-outer .icon img{ width: 48px;     height: 50px;}
+	.managment-part-outer .title{ font-size: 17px;}
+	.managment-part-outer.approch-outer .con{     font-size: 14px;}
+	.service-section p{     font-size: 14px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{     margin: 0 0;}
+	.choose-us-item-02 .choose-us-content .title{ font-size: 14px;}
+	.service-section .choose-us-item-02 .choose-us-content p{ font-size: 9px;}
+	.choose-us-content li a{     font-size: 13px;}
+	.service-section{     padding: 50px 0 50px !important;}
+	.section-padding.grow-business-outer{ padding-top:0 !important;}
+	.banner-3-wrapper .banner-overlay {     padding: 75px 0 85px 0;     text-align: center; }
+	.techwix-choose-us-section-04 .choose-us-item-02{ min-height: 503px;}
+	.contact-section-2{ padding-bottom: 50px !important;}
+	.contact-section-2 .section-title h2{ font-size: 20px;}
+	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 15px !important;}
+	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .icon{ font-size: 20px !important;}
+	.contact-box{     padding: 0px 20px !important;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .form-clt {     -ms-flex-preferred-size: 70%;     flex-basis: 65% !important; }
+	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .theme-btn{     width: 112px !important;} 
+	.footer-widgets-wrapper {     padding: 0px 0 90px !important; }
+}
+
+@media (max-width: 768px){
+	.managment-part-outer.approch-outer .solution-slider-outer .con-outer {     min-height: 528px; }
+	.comprehensivesection,.why-choose-us-outer{     text-align: center;}
+	.comprehensivesection .title,.why-choose-us-outer .title{ font-size: 25px;     line-height: 35px;}
+	.comprehensivesection .con{     padding: 0 20px;     margin-top: 25px;}
+	.why-choose-us-outer .con{ padding:0 20px;}
+	.why-choose-us-outer .read-more-btn{ margin-bottom:20px;}
+	.main-con-outer .social-logo{     justify-content: center;}
+	.secure-cloud-outer .con-outer{     text-align: center;}
+	.secure-cloud-outer .con{     font-size: 16px; line-height: 34px;     margin-top: 0; width:auto;}
+	.secure-cloud-outer .title{ font-size: 25px;}
+	.secure-cloud-outer{ background-size:cover;}
+	.bright-think-outer .con-outer{     margin: 0 13px 30px;}
+	.competitive-outer .con{     font-size: 25px;}
+	.competitive-outer .con .big{     font-size: 35px;}
+	.competitive-outer .con-outer,.competitive-outer.move-competitive-outer .con-outer,.competitive-outer.lead-competitive-outer .con-outer{ padding-top: 80px !important;     background-size: cover;     padding-bottom: 80px !important;}
+	.competitive-outer .container{     width: auto;     margin: 0 0 0 0;     text-align: center;}
+	.competitive-outer .title{     font-size: 25px;     line-height: 40px;     padding: 30px 20px;}
+	.section-padding.competitive-outer{     padding-top: 0 !important;}
+	.advantage-outer .row > div{ margin-bottom:20px;}
+	.subscribe-outer .title{     font-size: 25px;     line-height: 40px;}
+	.cloud-sec-1 .cloud-main-banner img{     height: 300px;}
+	.cloud-sec-1 .title{     font-size: 20px;     line-height: 31px;}
+	.overview-service-outer.advertising .con-outer{ min-height: auto;     margin-bottom: 20px;}
+	.section-padding.our-approch-outer{ padding:0 0 !important;}
+	.our-approch-outer .title-outer{ background: transparent;     margin-bottom: 25px;		}
+	.section-padding.why-digital-outer{ padding-bottom:0;}
+	.why-con > div{     float: left;     width: 100%;     margin-right: 15px;     margin-bottom: 15px;     border: 1px solid #ccc;     padding: 15px;}
+	.why-digital-outer .main-con-outer .title{ font-size: 25px; text-align: center;}
+	.why-digital-outer .banner img{     height: auto;}
+	.ppc-service-outer .con-outer{     margin-bottom: 25px;     min-height: auto;}
+	.our-approch-outer .main-con{     text-align: center;}
+	.our-approch-outer .title-outer .title .img-icon img{ margin: 30px auto 30px;}
+	.section-padding.included-outer{     background: transparent;
+    padding:20px 20px !important;}
+	.about-section .title h2{     font-size: 25px;     line-height: 40px;}
+	.breadcrumb-wrapper.manage-breadcrumb .page-heading h1{ padding-left: 0;     padding-bottom: 50px;     margin-top: 0;}
+	.grow-managed .starting-fresherwells h2{ font-size: 25px;    line-height: 41px; text-align:center;     color: #000;}
+	.grow-managed .starting-fresherwells p{ width:auto; text-align:center;     color: #000;}
+	.benifits-outer ul li{     min-height: auto;     width: 100%;     text-align: center; margin-bottom:15px;}
+	.included-outer .main-con-outer{ margin-top: 20px;     padding-left: 0;     text-align: center;}
+	.included-outer .main-title{ font-size: 25px;     line-height: 40px;}
+	.small-step-outer .title{ color: #7d023d;}
+	.tecnology-icon-outer{ margin-top: 20px;}
+	.review-services-outer .title {     margin-top: 0; }
+	.mobile-service-outer .tag {     font-size: 12px;     letter-spacing: 3px; }
+	.faq-content .accordion-item .accordion-header .accordion-button{ font-size: 14px !important;}
+	.faq-outer .title{ font-size: 25px; }
+	.tecnology-icon-outer .title{ color: #7d023d;     font-weight: bold; font-size:25px;}
+	.tecnology-icon-outer{ background:#fff;}
+	.deliver-pro-outer{ text-align:center;}
+	.deliver-pro-outer .title{ font-size: 25px;     color: #000; line-height: 40px; line-height: 40px;}
+	.deliver-pro-outer:after{ display:none;}
+	.deliver-pro-outer{ margin-top: 0;}
+	.small-step-outer .title{     line-height: 40px;     font-size: 25px;}
+	.small-step-outer .con{     width: 100%;}
+	.mobile-service-outer .con{ font-size: 16px;     line-height: 33px;     margin-bottom: 30px;}
+	.mobile-service-outer .title{     font-size: 25px; line-height: 41px;}
+	.mobile-service-outer .con-outer {  padding: 0 20px;     text-align: center;   margin-top: 0; }
+	.custom-service-outer .bx-pager, .managment-part-outer.approch-outer .bx-pager,.telephone-slider-outer .bx-pager,.innovative-slider-outer .bx-pager{ display:block;     padding-bottom: 20px;}
+	.custom-service-outer .bx-controls-direction, .managment-part-outer.approch-outer .bx-controls-direction,.telephone-slider-outer .bx-controls-direction,.innovative-slider-outer  .bx-controls-direction{ display:none;}
+	.how-we-do-outer .con{     text-align: center;     padding: 0 20px 25px !important;}
+	.about-purpose-outer .con-outer{     min-height: auto;     margin-bottom: 25px;}
+	.why-us-section{ padding-top:0 !important;}
+	.about-section .about-img-2{ padding: 0 0; border:0;}
+	.Circle{ display:none;}
+	.about-section .con-right,.about-section .con-left{padding: 0 20px !important;     text-align: center;     border: 0;     margin-bottom: 20px;}
+	.about-section .about-img-1{ padding:0 0;}
+	body {
+		font-size: 16px !important;
+    color: #000 !important;
+	}
+	.managment-part-outer.approch-outer .con{ font-size: 16px;}
+	.about-main-title{     padding: 0 15px;}
+	.about-main-title .section-title h2{     font-size: 25px !important;     line-height: 40px;     margin-bottom: 0;}
+	.about-section-top{ padding-top:30px;}
+	.desk-img{ display:none;}
+	.mob-img{ display:block; margin-bottom:25px}
+	.mean-container .mean-nav ul li li a{     padding: 10px 10px !important;}
+	.footer-widgets-wrapper .single-footer-widget .footer-content p{  color: #000 !important; }
+	.footer-widgets-wrapper .single-footer-widget .widget-head h3{     color: #000 !important;}
+	.footer-widgets-wrapper{ padding: 0px 0 70px !important;}
+	.footer-widgets-wrapper .single-footer-widget{     margin-top: 0px !important;     margin-right: 0 !important;}
+	.footer-top ul{ gap: 13px !important; font-size:14px;}
+	.footer-top ul li a{     color: #000 !important;}
+	.footer-top ul li i{     color: #000 !important;}
+	.footer-section{ background-size: cover !important;}
+	.header-main .logo img{ width:200px;}
+	.hero-3 .slide-bg {
+    padding: 50px 0px !important;
+}
+.approch-outer .main-title{     font-size: 20px;     margin-bottom: 30px;}
+.section-padding{     padding: 30px 0 !important;}
+.managment-part-outer.approch-outer.cost-sec-outer .con {     min-height: auto; }
+.service-section p{ font-size: 14px;}
+.techwix-choose-us-section-04 .choose-us-item-02{ margin: 0 12px 24px;}
+.starting-fresherwells h2{ font-size: 26px;     line-height: 40px;}
+.banner-3-wrapper .banner-overlay{     padding: 30px 10% 30px 10%;}
+.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 14px !important;}
+.contact-box{     padding: 20px 0px !important;}
+.section-title h2{     font-size: 20px !important;}
+}
+
 
 @media (max-width: 575px) {
   .theme-btn i {
@@ -692,7 +939,7 @@ a {
   text-decoration: none;
   outline: none !important;
   cursor: pointer;
-  color: var(--header);
+  color: #fff;
   -webkit-transition: all 0.4s ease-in-out;
   transition: all 0.4s ease-in-out;
 }
@@ -2070,7 +2317,7 @@ input.main-search-input::placeholder {
 
 .header-main .main-menu ul li a {
   display: inline-block;
-  font-size: 16px;
+  font-size: 20px;
   font-weight: 400;
   color: var(--header);
   padding: 35px 0;
@@ -2535,7 +2782,7 @@ input.main-search-input::placeholder {
   .header-3 .container-fluid {
     padding: 0 30px;
   }
-  .section-title h2{ font-size: 25px;}
+  .section-title h2{font-size: 29px;}
   body{     font-size: 14px;}
 }
 
@@ -2968,7 +3215,7 @@ input.main-search-input::placeholder {
 
 @media (max-width: 767px) {
   .breadcrumb-wrapper .page-heading h1 {
-    font-size: 36px;
+    font-size: 25px;
   }
 }
 
@@ -3771,6 +4018,7 @@ input.main-search-input::placeholder {
   .hero-3 .slider-button {
     display: none;
   }
+  .preloader .animation-preloader .txt-loading{ font-size:20px;}
 }
 
 .hero-3 .slider-button .hero-nav-prev {
@@ -12099,9 +12347,10 @@ p.sticky-label {
 .contact-box {
   background-color: var(--white);
   -webkit-box-shadow: var(---box-shadow);
-          box-shadow: var(---box-shadow);
+  box-shadow: var(---box-shadow);
   border-radius: 5px;
   padding: 60px 45px;
+  box-shadow: 0 0 10px #000000c7 !important;
 }
 
 .contact-box .contact-title {

@@ -171,6 +171,7 @@ padding: 75px 20% 85px 10%;
 .about-main-title{     text-align: center;     padding: 0 100px;}
 .about-section.Begining-outer .container{ max-width:800px;}
 .about-section .container img{ width:100%; display:block; border-radius:5px;}
+.about-section.how-we-do-outer .container img{     border-radius: 0;}
 .about-section .about-img-1{ padding: 20px 50px 20px 0;}
 .about-section .about-img-2{ padding: 20px 0 20px 50px; border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
 .about-section .con-right{ padding: 50px 0 20px 50px !important;    border-style: solid;     border-width: 0px 0px 0px 1px;     border-color: #ccc;     transition: background 0.3s ease 0s, border 0.3s ease 0s, border-radius 0.3s ease 0s, box-shadow 0.3s ease 0s;}
@@ -188,7 +189,7 @@ padding: 75px 20% 85px 10%;
 .about-purpose-outer .icon{ margin-bottom:20px;}
 .about-purpose-outer .title{ font-size:25px; font-weight:700; margin-bottom:15px; color: #7d023d;;}
 .about-purpose-outer .con{ font-size: 14px; padding-right: 25px;}
-.how-we-do-outer .con{margin-right: 30px;padding: 40px;background: #fff;box-shadow: 0 0 10px #000000b8;}
+.how-we-do-outer .con{margin-right: 0;padding: 40px;background: #fff;}
 .how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
 .grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
@@ -444,7 +445,7 @@ body{ font-family: "Bree Serif", serif !important;
 .why-choose-us-outer .title{     color: #7d023d;     font-weight: bold;}
 .service-section.home-service-section .section-title{ width: 50%;}
 .how-we-do-outer .section-title h2{ color: #7d023d;}
-.about-section.home-how-we-do .container img{     height: 432px; object-fit: cover;}
+.about-section.home-how-we-do .container img{height: 432px;object-fit: cover;border-radius: 0;}
 .about-section.section-padding.home-how-we-do{ padding-bottom:0;}
 .contact-us-page-outer{     background: url(../../assets/img/mobile-page-bg.jpg) no-repeat 0 0;     background-size: cover;}
 .breadcrumb-wrapper.contact-breadcrumb:before{ display:none;}
@@ -454,7 +455,7 @@ body{ font-family: "Bree Serif", serif !important;
 .home-service-part{overflow:hidden;position: relative;}
 .home-service-part:hover .con-outer{ transform: translateY(0px) !important; transition: opacity .65s cubic-bezier(.05,.2,.1,1), transform .65s cubic-bezier(.05,.2,.1,1);}
 .home-service-part:hover .service-img img{ transform: scale(1.2);     -webkit-transform: scale(1.2);     transition: transform 9s cubic-bezier(.1,.2,.7,1);}
-.home-service-part .service-img img{height:345px;object-fit: cover;border-radius: 5px;     transition: transform 1s ease, opacity .5s ease .25s;     transform: scale(1);     -webkit-transform: scale(1);}
+.home-service-part .service-img img{height:345px;object-fit: cover;border-radius: 5px;        width: 100% !important; transition: transform 1s ease, opacity .5s ease .25s;     transform: scale(1);     -webkit-transform: scale(1);}
 .home-service-part .service-img{ position:relative;}
 .home-service-part .service-img:after{content:"";display:block;clear:both;background-image: linear-gradient(#0000, #000000bd);position:absolute;top:0;border-radius: 5px;left:0;bottom:0;right:0;}
 .home-service-part:hover .service-img:after	{background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #204580 100%);}
@@ -471,6 +472,8 @@ body{ font-family: "Bree Serif", serif !important;
 .mobile-our-effect .home-service-part .con-outer{ transform: translateY(308px);}
 .solution-ban img{ width:100%;}
 .comprehensivesection{ text-align:center;}
+.people-outer .home-service-part .service-img img{ height:480px;}
+.people-outer .home-service-part .con-outer{ transform: translateY(345px);}
 
 @media (max-width: 1400px) and (min-width: 1200px){
 	.about-purpose-outer .con{ font-size:16px !important;}

@@ -67,10 +67,6 @@ Version: 1.0.0
 }
 .choose-us-item-02 .choose-us-img img {
     transition: all 0.3s linear;
-    border: 2px solid #fff;
-    border-radius: 100%;
-    background: #fff;
-    padding: 3px;
 }
 .choose-us-item-02:hover .choose-us-img img {
     transform: scale(0.9);
@@ -122,7 +118,7 @@ Version: 1.0.0
     padding: 0.8rem 1.7rem;
     color: #fff !important;
     border-color: #1a3252 !important;
-    /*background-color: #1a3252 !important;*/
+    background-color: #1a3252 !important;
     font-size: 18px;
     font-weight: 400;
     margin-top: 7px;
@@ -135,10 +131,10 @@ Version: 1.0.0
 .starting-fresherwells p{ font-size: 20px;     margin: 20px 0;}
 .font--jakarta h1, .font--jakarta h2{ color:#fff;     line-height: 1.25;     font-size: 3rem;     font-weight: 700;}
 .color--white, .color--white h1, .color--white h2, .color--white h3, .color--white h4, .color--white h5, .color--white h6, .color--white p, .color--white a, .color--white li, .color--white i, .color--white span{ color:#fff;}
-.home-service-outer .odd,.home-service-outer .even{background:url(../img/home-service-effect-bg.jpg) no-repeat 0 0px; background-size:cover; box-shadow: 0 12px 10px #000000ad; transition: all 0.45s cubic-bezier(0.25,1,0.2,1);}
-.home-service-outer .odd:hover,.home-service-outer .even:hover{background:url(../img/home-effect-bg-1.jpg) no-repeat 0 0;     transform: scale(1.08);
+.home-service-outer .odd,.home-service-outer .even{background:url(../img/home-service-effect-bg.jpg) no-repeat 0 0px;background-size:cover;box-shadow: 0 12px 10px #0000002e;transition: all 0.45s cubic-bezier(0.25,1,0.2,1);min-height: 396px;}
+.home-service-outer .odd:hover,.home-service-outer .even:hover{background:url(../img/home-service-effect-bg.jpg) no-repeat 0 -100px;     transform: scale(1.08);
     -webkit-transform: scale(1.08); box-shadow: none; background-size:cover;}
-.outer-border{border: 1.5px solid #fff;border-radius: 10px;padding: 15px;min-height: 530px;}
+.outer-border{border: 1.5px solid #fff;border-radius: 10px;padding: 15px;min-height: 394px;}
 .home-service-outer .row > div{/* padding:0 !important; */text-align: center;}
 .service-section h2 ,.service-section p, .service-section .section-title span{color: #000 !important;}
 .service-section .choose-us-item-02 .choose-us-content p{color: #000 !important;padding-top: 0;font-size: 11px;margin-top: -10px;margin-bottom: 10px;font-weight: bold;}
@@ -167,6 +163,41 @@ Version: 1.0.0
 .home-service-outer ul li.bold:before{ display:none;}
 .home-service-outer ul li:before{Content:"";display:inline-block;clear:both;width: 0;position: absolute;height: 5px;left: 0;background:#000;vertical-align:top;border-radius:100%;margin-top: 13px;margin-right: 12px;}
 /*---------about us---------*/
+.about-info-bg-outer{background: url(../img/about-us-info-bg-1.jpg) no-repeat center;background-size: 85%;position: relative;width: 900px;margin: 0px auto;padding: 400px 0 400px;}
+.about-info-bg-outer ul li{position:absolute;font-size: 20px;cursor: pointer;color: #fff;text-align: center;line-height: 31px;}
+.about-info-bg-outer ul li.one{
+    left: 156px;
+    bottom: 281px;
+}
+.about-info-bg-outer ul li.two{
+    left: 178px;
+    bottom: 467px;
+}
+.about-info-bg-outer ul li.three{
+    left: 295px;
+    top: 149px;
+}
+.about-info-bg-outer ul li.four{
+    right: 269px;
+    top: 148px;
+}
+.about-info-bg-outer ul li.five{
+    right: 134px;
+    top: 288px;
+}
+.about-info-bg-outer ul li.six{
+    right: 159px;
+    bottom: 262px;
+}
+.about-info-bg-outer li .con{display:none;position: absolute;width: 359px;background: #1836b2;padding: 25px;z-index: 99;border-radius: 5px;font-size: 16px;}
+.about-info-bg-outer li:hover .con{ display:block;}
+.about-info-bg-outer li.one .con	{left: -400px;bottom: -54px;}
+.about-info-bg-outer li.two .con	{left: -418px;bottom: -128px;}
+.about-info-bg-outer li.three .con	{left: -131px;bottom: 99px;}
+.about-info-bg-outer li.four .con	{left: 194px;bottom: 17px;}
+.about-info-bg-outer li.five .con	{left: 128px;bottom: -85px;}
+.about-info-bg-outer li.six .con	{left: 164px;bottom: -84px;}
+
 .about-main-title{     text-align: center;     padding: 0 100px;}
 .about-section.Begining-outer .container{ max-width:800px;}
 .about-section .container img{width: 100%;display:block;border-radius:5px;object-fit: cover;}
@@ -191,7 +222,7 @@ Version: 1.0.0
 .about-purpose-outer .icon{ margin-bottom:20px;}
 .about-purpose-outer .title{ font-size:25px; font-weight:700; margin-bottom:15px; color: #7d023d;;}
 .about-purpose-outer .con{ font-size: 14px; padding-right: 25px;}
-.how-we-do-outer .con{margin-right: 0;padding: 40px;background: #fff;}
+.how-we-do-outer .con{margin-right: 0;padding: 66px 40px;background: #fff;}
 .how-we-do-outer .con p{    font-size: 14px; margin-bottom: 20px;}
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
 .grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
@@ -325,7 +356,7 @@ Version: 1.0.0
 .water-group-service{     background: #ccc3; padding-top: 0 !important;}
 .water-group-service .con-outer{ margin-bottom:0 !important;     min-height: 459px;     background: #fff;}
 .review-services-outer .title{     margin-top: 89px;}
-.approch-outer .main-title{text-align: center;font-size: 35px;font-weight: bold;margin-bottom: 53px;color: #720e3e;}
+.approch-outer .main-title{text-align: center;font-size: 50px;font-weight: bold;margin-bottom: 74px;color: #720e3e;margin-top: 15px;}
 .approch-outer .icon{ margin-bottom: 20px; }
 .managment-part-outer.approch-outer .con{font-size: 18px;line-height: 30px;min-height: 250px;}
 .managment-part-outer.approch-outer.cost-sec-outer .con{min-height: 200px;}
@@ -406,9 +437,12 @@ Version: 1.0.0
 .manage-it-slider-effect .mobile-our-effect .home-service-part .con-outer{     transform: translateY(308px);}
 .manage-it-slider-effect .con{ color: #fff;     font-size: 18px !important;}
 .approch-outer .icon img{     margin: 0 auto; }
-.breadcrumb-wrapper.manage-breadcrumb{     padding: 100px 0 200px;}
-.breadcrumb-wrapper.manage-breadcrumb .page-heading h1{ padding-left: 104px;
-    margin-top: -55px;     color: #7d023d; }
+.breadcrumb-wrapper.manage-breadcrumb{padding: 150px 0;}
+.breadcrumb-wrapper.manage-breadcrumb .page-heading h1{
+    padding-left: 0;
+    margin-top: 0;
+    color: #7d023d;
+    }
 .manage-breadcrumb:before{ background:transparent !important;}
 .cutting-edge-outer .main-con-outer .main-title{font-size: 26px;color: #000;font-weight: bold;line-height: 40px;margin-bottom: 20px;position:relative;}
 .cutting-edge-outer .main-con-outer .main-title:after{Content:"";display:block;clear:both;background:url(../img/Shape-dots-arrow-right.svg) no-repeat 0 0;width: 200px;height: 200px;background-size: 100%;position: absolute;top: -118px;right: -120px;}
@@ -444,14 +478,14 @@ Version: 1.0.0
 .service-section .section-title{ width:80%;}
 .home-service-section .title-section-area{ padding-bottom: 50px;}
 .choose-us-content .title a{color: #fff;font-weight: 400;}
-.choose-us-content li a{font-size: 15px;font-weight: 400;color: #121e4e;}
-.service-section p{font-size: 18px;line-height: 30px;font-weight: 400;}
+.choose-us-content li a{font-size: 17px;font-weight: 400;color: #121e4e;}
+.service-section p{font-size: 20px;line-height: 37px;font-weight: 400;}
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{ font-family: "Young Serif", serif !important; font-weight: 400 !important; font-style: normal;}
 body{ font-family: "Bree Serif", serif !important;
   font-weight: 400 !important;
   font-style: normal;}
   .included-outer{/* background:#fff; */}
-.about-main-title .section-title h2{     text-transform: capitalize;     line-height: 55px;     text-align: center;     font-size: 35px !important;     font-weight: bold !important;     margin-bottom: 53px;     color: #720e3e;}
+.about-main-title .section-title h2{text-transform: capitalize;line-height: 55px;text-align: center;margin-top: 60px;font-size: 35px !important;font-weight: bold !important;margin-bottom: 53px;color: #720e3e;}
 .about-purpose-outer .con-outer{text-align:center;background: #fff;padding: 20px;border-radius: 4px;box-shadow: 0 9px 16px #00000069;margin: 0 10px;min-height: 444px;}
 .telephone-slider-outer .bx-pager,.innovative-slider-outer .bx-pager{ display:none;}
 .managment-part-outer.approch-outer .solution-slider-outer .con-outer{     min-height: 508px;}
@@ -484,7 +518,8 @@ body{ font-family: "Bree Serif", serif !important;
 .home-service-part .con-outer{ padding: 12px 9px;}
 .home-service-part .title{font-size: 27px !important;margin-bottom: 35px;}
 .home-service-outer .digital-trn  ul li{ line-height:25px;}
-.contact-content{ padding-left:45px;}
+.contact-content{     padding-left: 0;     text-align: center;}
+.work-bg img{ width: 350px;}
 .solution-service-effect,.mobile-our-effect{ padding:0 15px}
 .solution-service-effect .home-service-part .service-img img{ height:520px;}
 .solution-service-effect .home-service-part .con-outer{ transform: translateY(380px);}
@@ -852,7 +887,7 @@ body{ font-family: "Bree Serif", serif !important;
  .contact-section-2 .contact-wrapper-2{ background: #fff;     padding: 20px;}
 body {
   font-family: "Inter", sans-serif;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: normal;
   line-height: 28px;
   color: #000;
@@ -1315,7 +1350,7 @@ input.main-search-input::placeholder {
   position: relative;
   z-index: 99;
   margin-bottom: 18px;
-  margin-top: -6px;
+  margin-top: 0;
 }
 
 @media (max-width: 767px) {
@@ -1342,7 +1377,7 @@ input.main-search-input::placeholder {
 .section-title h2 {
   text-transform: capitalize;
   line-height: 55px;
-  font-size: 35px;
+  font-size: 50px;
 }
 
 .section-title.style-2 span {
@@ -1354,7 +1389,7 @@ input.main-search-input::placeholder {
 .section-title.style-2 h2 {
   text-transform: uppercase;
   color: #740b3d !important;
-  line-height: 40px;
+  line-height: 60px;
 }
 
 .section-title.style-2 h2 span {

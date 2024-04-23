@@ -227,8 +227,12 @@ Version: 1.0.0
 .about-purpose-outer{     border-top: 1px solid #cccccc85;     border-bottom: 1px solid #cccccc85;     background: #cccccc26;}
 .grow-business-outer{padding-top:0 !important;padding-bottom:0 !important;box-shadow: 0 0 50px #00000052;}
 .advantage-outer .con{ color:#000;}
-.innovative-slider-outer .con-outer,.lead-bright-think-outer .con-outer{ box-shadow: 0 10px 15px #000000bd !important;     text-align: center;}
+.innovative-slider-outer .con-outer,.lead-bright-think-outer .con-outer{box-shadow: 0 10px 15px #00000030 !important;text-align: center;}
 .innovative-slider-outer .title,.lead-bright-think-outer .title{ color: #7d023d !important;}
+.icon-con-outer{ text-align:center;}
+.icon-con-outer img{ width:auto !important; display:inline-block !important;}
+.icon-con-outer .con{color: #7d023d;font-size: 50px;font-weight: bold;margin-bottom: 60px;margin-top:35px;}
+.bx-wrapper{ margin-bottom:0 !important;}
 
 /*---------services----------*/
 .service-sec-1{ padding-top:50px; text-align:center;}
@@ -246,7 +250,7 @@ Version: 1.0.0
 .why-choose-us-outer .title{color: #000;font-size: 40px;font-weight: bold;line-height: 51px;margin-bottom: 25px;margin-top: 25px;}
 .why-choose-us-outer .con{font-size: 14px;margin-bottom: 25px;padding-right: 36px;}
 .why-choose-us-outer .read-more-btn a{ font-size: 14px;     padding: 13px 15px;     font-weight: normal;}
-.web-abn-outer{     padding-top: 120px !important;}
+.web-abn-outer{padding-top: 30px !important;}
 /*------cloud--------*/
 .breadcrumb-wrapper.digital-breadcrumb:before{ background: #00000000 !important;}
 .breadcrumb-wrapper.digital-breadcrumb .page-heading h1{     color: #7d023d; }
@@ -306,7 +310,7 @@ Version: 1.0.0
 .competitive-outer .title{padding:50px 0;background: #a066cb;text-align:center;font-size:35px;position:relative;color: #fff;}
 .competitive-outer .title:after{content: "";width: 0;height: 0;border-left: 32px solid transparent;border-right: 32px solid transparent;border-top: 32px solid #a066cb;position: absolute;-webkit-transform: translate(-50%, 30px);bottom: 1px;left: 50%;z-index: 99;}
 .competitive-outer{ padding-top:0 !important; }
-.competitive-outer .con-outer{background: url(../img/DESIGN_background-banner.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
+.competitive-outer .con-outer{/* background: url(../img/DESIGN_background-banner.jpg) no-repeat 0 0; */padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
 .competitive-outer .con .big{display: block;font-size: 50px;font-weight: bold;margin: 30px 0 30px;}
 .competitive-outer .con{
     color: #fff;
@@ -318,7 +322,7 @@ Version: 1.0.0
     text-align: center;
 }
 .bright-think-outer img{ width:100%; display:block;}
-.bright-think-outer .con-outer{margin: 0 13px 60px;box-shadow: 0 8px 15px #00000047;background: #fff;}
+.bright-think-outer .con-outer{margin: 0 13px 60px;box-shadow: 0 8px 15px #00000012;background: #fff;}
 .bright-think-outer .telephone-slider-outer .con-outer{ min-height: 479px;     padding: 15px 20px; }
 .telephone-outer{ padding-bottom:0 !important;}
 .managment-part-outer.approch-outer .unlimited-service-slider-outer .con{ min-height:auto;}
@@ -326,14 +330,14 @@ Version: 1.0.0
 .managment-part-outer.approch-outer .unlimited-service-slider-outer .con-outer:hover{ background:url(../img/hover-slider-img.jpg) no-repeat 0 -172px;     transform: scale(1.08);
     -webkit-transform: scale(1.08); box-shadow: none;}
 
-.included-outer .row{ background: #fff;     box-shadow: 0 0 17px #0000003d ; border-radius: 5px;}
+.included-outer .row{background: transparent;border-radius: 5px;}
 .telephone-slider-outer .bx-pager{ display:none;}
 .telephone-slider-outer .bx-wrapper{ margin-bottom:0;}
 .bright-think-outer .main-con-outer{ padding: 15px 20px; background: #fff;}
 .bright-think-outer .title{font-size: 20px;line-height: 36px;font-weight: bold;color: #7d023d;margin-bottom: 15px;}
 .bright-think-outer p{}
-.competitive-outer.move-competitive-outer .con-outer{background: url(../img/MOVE_background-banner.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
-.competitive-outer.lead-competitive-outer .con-outer{background: url(../img/LEAD_background-banner.jpg) no-repeat 0 0;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
+.competitive-outer.move-competitive-outer .con-outer{/* background: url(../img/MOVE_background-banner.jpg) no-repeat 0 0; */padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
+.competitive-outer.lead-competitive-outer .con-outer{/* background: url(../img/LEAD_background-banner.jpg) no-repeat 0 0; */padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
 .secure-cloud-outer{background: url(../img/sec-by-design.jpg) no-repeat 0 -200px;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
 .lead-bright-think-outer .main-con-outer{ min-height:365px;}
 .secure-cloud-outer .title{font-size: 50px;     line-height: 66px;     color: #fff;     font-weight: bold;}
@@ -341,8 +345,7 @@ Version: 1.0.0
 .custom-service-outer .main-con-outer p{ margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li{margin-bottom:10px;}
 .custom-service-outer .main-con-outer ul li:before{Content: "";display: inline-block;clear: both;width: 0;height: 5px;background: #000;border-radius: 100%;margin-right: 10px;vertical-align: top;margin-top: 12px;}
-.deliver-pro-outer{margin-top: 50px;background:url(../img/deliver-bg-img.jpg) no-repeat 0 0;position:relative;margin-bottom: 0;background-size: cover;     box-shadow: 0 0 14px #040b2e;}
-.deliver-pro-outer:after{Content:"";display:block;clear:both;background:url(../img/img-we-deliver.png) no-repeat 0 0;z-index: 9;width: 600px;height: 600px;background-size: 100%;position: absolute;top: -108px;right: 74px;}
+.deliver-pro-outer{margin-top: 50px;background: #1c1e37 url(../img/deliver-bg-img.jpg) no-repeat 0 0;position:relative;margin-bottom: 0;background-size: 75%;box-shadow: 0 0 14px #040b2e4d;background-position: 100% -64px;margin-top: -80px;}
 .deliver-pro-outer .title{ font-size: 50px;     color: #fff;     line-height: 63px;     font-weight: bold;     margin-bottom: 42px;}
 .tecnology-icon-outer .text-slider.style-height{ height:126px;}
 .tecnology-icon-outer .title{ font-size: 35px;     text-align: center;     color: #7e033e;     font-weight: bold;}
@@ -437,7 +440,7 @@ Version: 1.0.0
 .manage-it-slider-effect .mobile-our-effect .home-service-part .con-outer{     transform: translateY(308px);}
 .manage-it-slider-effect .con{ color: #fff;     font-size: 18px !important;}
 .approch-outer .icon img{     margin: 0 auto; }
-.breadcrumb-wrapper.manage-breadcrumb{padding: 150px 0;}
+.breadcrumb-wrapper.manage-breadcrumb{padding: 120px 0;}
 .breadcrumb-wrapper.manage-breadcrumb .page-heading h1{
     padding-left: 0;
     margin-top: 0;
@@ -468,7 +471,9 @@ Version: 1.0.0
 .Stack-slider-outer{ margin-top:50px;}
 .faq-outer{ padding-top:0 !important;}
 .faq-outer .title{font-size: 35px;     text-align: center;     color: #7e033e;     font-weight: bold;     margin-bottom: 35px;}
-.bright-think-outer.custom-service-outer .main-con-outer{min-height: 560px;text-align: center;}
+.bright-think-outer.custom-service-outer .main-con-outer{min-height: 269px;text-align: center;}
+.con-outer.web-con-outer{}
+.con-outer.web-con-outer .title{ margin-bottom:45px;}
 .bx-wrapper .bx-prev{ left: -30px !important;}
 .bx-wrapper .bx-next{ right:-30px !important;}
 .custom-service-outer .bx-pager,.managment-part-outer.approch-outer .bx-pager{ display:none;}

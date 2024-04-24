@@ -38,6 +38,9 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
 		<!--<< All JS Plugins >>-->
          <script src="assets/js/jquery-3.7.1.min.js"></script>
          <!--<< Viewport Js >>-->
@@ -71,69 +74,6 @@
     </head>
 
     <body>
-
-        <!-- Preloader Start -->
-        <div id="preloader" class="preloader">
-            <div class="animation-preloader">
-                <div class="spinner">                
-                </div>
-                <div class="txt-loading">
-                    <span data-text-preloader="F" class="letters-loading">
-                        F
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                    <span data-text-preloader="H" class="letters-loading">
-                        H
-                    </span>
-                    <span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-                    <span data-text-preloader="R" class="letters-loading">
-                        R
-                    </span>
-					<span data-text-preloader="w" class="letters-loading">
-                        W
-                    </span>
-					<span data-text-preloader="E" class="letters-loading">
-                        E
-                    </span>
-					<span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
-					<span data-text-preloader="L" class="letters-loading">
-                        L
-                    </span>
-					<span data-text-preloader="S" class="letters-loading">
-                        S
-                    </span>
-                </div>
-                <p class="text-center">Loading</p>
-            </div>
-            <div class="loader">
-                <div class="row">
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-left">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                    <div class="col-3 loader-section section-right">
-                        <div class="bg"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
         <!--<< Mouse Cursor Start >>-->  
         <div class="mouse-cursor cursor-outer"></div>
@@ -214,7 +154,38 @@
         </div>
         <div class="offcanvas__overlay"></div>
 
-        <!-- Header Area Start -->
+        <!-- Header Top Start -->
+        <div class="header-top-section-3">
+            <div class="container-fluid">
+                <div class="header-top-wrapper style-2 style-3">
+                    <div class="top-left">
+                        <ul class="contact-list">
+                            <li>
+                                <span>Call</span>Consult With It Advisor? <a href="contact.html">Click Now</a>
+                            </li>
+                            <li>
+                                <i class="fas fa-map-marker-alt"></i>
+                                734 H, Bryan Burlington, NC 27215 
+                            </li>
+                            <li>
+                                <i class="fas fa-envelope"></i>
+                                <a href="javascript:void(0)" class="line-none">info@example.com</a> 
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="top-right">
+                        <div class="social-icon d-flex align-items-center">
+                            <a href="javascript:void(0)"><i class="fab fa-facebook-f"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-twitter"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-vimeo-v"></i></a>
+                            <a href="javascript:void(0)"><i class="fab fa-pinterest-p"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+       <!-- Header Area Start -->
         <header class="header-section-3">
             <div id="header-sticky" class="header-3">
                 <div class="container-fluid">
@@ -233,26 +204,22 @@
                                                 <li class="has-dropdown active menu-thumb">
                                                     <a href="index.html">
                                                     Home 
-                                                    <i class="fas fa-angle-down"></i>
+                                                    
                                                     </a>
                                                     
                                                 </li>
                                                 <li class="has-dropdown active d-lg-none">
-                                                    <a href="team.html" class="border-none">
+                                                    <a href="index.html" class="border-none">
                                                     Home
                                                     <i class="fas fa-angle-down"></i>
                                                     </a>
-                                                    <ul class="submenu">
-                                                        <li><a href="javascript:void(0)">Home 01</a></li>
-                                                        <li><a href="javascript:void(0)">Home 02</a></li>
-                                                        <li><a href="javascript:void(0)">Home 03</a></li>
-                                                    </ul>
                                                 </li>
                                                 <li>
                                                     <a href="about.html">Company <i class="fas fa-angle-down"></i> </a>
                                                     <ul class="submenu">
                                                         <li><a href="about.html">About Us</a></li>
-                                   
+                                                        <li><a href="solutions.html">Our Services</a></li>
+                                                   
                                                     </ul>
                                                 </li>
 												<li>
@@ -767,7 +734,7 @@
 		$(document).ready(function(){
 			$(".approch-bxslider").bxSlider(
 				{
-				  auto: true,
+				
 				  autoControls: false,
 				  stopAutoOnClick: false,
 				  pager: true,
@@ -780,7 +747,7 @@
 			);
 			$(".stack-bxslider").bxSlider(
 				{
-				  auto: true,
+				 
 				  autoControls: false,
 				  stopAutoOnClick: false,
 				  pager: true,

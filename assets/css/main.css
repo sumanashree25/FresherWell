@@ -375,7 +375,7 @@ Version: 1.0.0
 .digital-marketing-body .Innovate-slider .con-outer:hover .banner:after{ background: linear-gradient(to bottom, rgba(0, 0, 0, 0), #204580 100%);}
 .digital-marketing-body .Innovate-slider .con-outer .banner:after	{content: "";display: block;clear: both;background-image: linear-gradient(transparent, transparent);position: absolute;top: 0;border-radius: 5px;left: 0;bottom: 0;right: 0;}
 .bright-think-outer .con-outer{margin: 0 20px 60px;box-shadow: 0 8px 15px #00000012;background: #fff; border-radius: 10px;}
-.bright-think-outer .telephone-slider-outer .con-outer{ min-height: 479px;     padding: 15px 20px; }
+.bright-think-outer .telephone-slider-outer .con-outer{ min-height: auto;     padding: 0 0; border-radius: 50px 0 50px 0;}
 .telephone-outer{ padding-bottom:0 !important;}
 .managment-part-outer.approch-outer .unlimited-service-slider-outer .con{ min-height:auto;}
 .managment-part-outer.approch-outer .unlimited-service-slider-outer .con-outer{ min-height: 380px; transition:all 0.45s cubic-bezier(0.25,1,0.2,1);}
@@ -667,8 +667,10 @@ Version: 1.0.0
     margin-top: 100px;
     padding-right: 150px;
 }
-.bright-think-outer .telephone-slider-outer img{width: auto;margin: 30px auto 20px;}
+.bright-think-outer .telephone-slider-outer img{width: auto;margin: 0 0;     border-radius: 50px 0 50px 0px;}
 .manage-it-slider-effect .title{ font-weight:400 !important; min-height:73px;}
+.telephone-slider-outer .manage-it-slider-effect .title{ font-weight:700 !important; min-height:auto;     line-height: normal;     font-size: 20px;}
+.telephone-slider-outer .manage-it-slider-effect .sc_services_item_content{ background-size:cover;}
 .manage-it-slider-effect .mobile-our-effect .home-service-part .con-outer{     transform: translateY(308px);}
 .manage-it-slider-effect .con{ color: #fff;    font-size: 15px !important;;}
 .approch-outer .icon img{     margin: 0 auto; }
@@ -775,6 +777,8 @@ body{
 .about-main-title .section-title h2 .brd{
     line-height: 38px;
 }
+.about-main-title .about-us-new-title.section-title h2 .brd{ line-height: 65px;}
+.about-main-title .about-us-new-title.section-title h2 .sml{ font-weight: 400;     font-size: 20px;     letter-spacing: 0;     line-height: 34px;     margin-top: 6px;     margin-bottom: 25px;}
 .about-main-title .section-title h2 .sml{
     font-weight: 400;
     font-size: 30px;

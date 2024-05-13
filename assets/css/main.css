@@ -644,7 +644,7 @@ Version: 1.0.0
 .custom-service-outer{    padding-bottom: 0 !important;}
 .main-con-outer .social-logo .logo-1{ margin-left:0;}
 .home-what-set-outer:after{content:"";display:block;clear:both;background:url(../img/home-effect-bg-2.png) no-repeat 0 0;width: 74%;height: 200px;background-size: 100%;position: absolute;bottom: 20px;left: 0;}
-.web-dev-outer:after{content:"";display:block;clear:both;background:url(../img/home-effect-bg-2.png) no-repeat 0 0;width: 74%;height: 200px;background-size: 100%;position: absolute;top: 62px;left: 0;}
+.web-dev-outer:after{content:"";display:block;clear:both;background:url(../img/home-effect-bg-2.png) no-repeat 0 0;width: 74%;height: 200px;background-size: 100%;position: absolute;top: 130px;left: 0;}
 .web-dev-outer{ position:relative;}
 .overview-service-outer.advertising .con-outer{min-height: auto;margin: 0 8px; border-radius: 10px 50px 10px 80px;}
 .overview-service-outer.advertising .con-outer .banner img{ border-radius: 0 50px 0 50px;}
@@ -777,8 +777,9 @@ body{
 .about-main-title .section-title h2 .brd{
     line-height: 38px;
 }
-.about-main-title .about-us-new-title.section-title h2 .brd{ line-height: 65px;}
-.about-main-title .about-us-new-title.section-title h2 .sml{ font-weight: 400;     font-size: 20px;     letter-spacing: 0;     line-height: 34px;     margin-top: 6px;     margin-bottom: 25px;}
+.we-at-fresherWells-outer .web-title.about-us-new-title{     padding: 0 100px;}
+.about-us-new-title .brd{ line-height: 65px;}
+.about-us-new-title .sml{ font-weight: 400;     font-size: 20px;     letter-spacing: 0;     line-height: 34px;     margin-top: 6px;     margin-bottom: 25px;}
 .about-main-title .section-title h2 .sml{
     font-weight: 400;
     font-size: 30px;
@@ -806,7 +807,7 @@ body{
 .breadcrumb-wrapper.contact-breadcrumb{ background-size:100%;   background-position: 0 -105px;     padding: 150px 0 240px;}}
 .breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb{padding: 100px 0 100px;}
 .home-service-outer .odd .choose-us-img, .home-service-outer .even .choose-us-img{position:absolute;top: -37px;left: 50%;transform: translate(-50%, 0);width: 75px;}
-.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread{          background-position: 0 -60px !important;     padding: 150px 0 285px;}
+.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread{          background-position: 0 -60px !important;     padding: 150px 0 348px;}
 .breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread{     padding: 99px 0 285px !important;}
 .breadcrumb-wrapper.digital-breadcrumb{          background-position: 0 -60px !important;     padding: 150px 0 285px;}
 .breadcrumb-wrapper .eggect-img-2{   position: absolute;     bottom: -400%;     left: 15%;     }

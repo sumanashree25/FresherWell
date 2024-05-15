@@ -198,6 +198,13 @@
                                                     <ul class="submenu">
                                                         <li><a href="about.html">About Us</a></li>
                                                 </li>
+												<li class="mob-contact-us">
+													<a href="contact.html">
+														<span>
+															contact us
+														</span>
+													</a>
+                                                </li>
 												
                                             </ul>
                                         </nav>
@@ -212,6 +219,15 @@
                                             <i class="fas fa-chevron-right"></i>
                                         </span>
                                      </a>
+                                </div>
+								<div class="header__hamburger d-xl-block my-auto mob-only">
+                                    <div class="sidebar__toggle">
+                                        <div class="header-bar">
+                                            <span></span>
+                                            <span></span>
+                                            <span></span>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -260,10 +276,11 @@
 								<div class="web-sloution-con-outer sc_services_featured_container">
 									<div class="web-slou-con sc_services_item_content_wrap">
 										<div class="sc_services_item_content">
-											<p>Our team leverages industry best practices and cutting-edge technologies to mitigate risks and optimize the performance of your migrated applications. Whether you're looking to improve scalability, enhance security, or reduce maintenance costs.</p>									
+											<img src="assets/img/web-development-ban-new-1.jpg" alt="shape-img">
+																			
 										</div>
 									</div>
-									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb"><img src="assets/img/web-development-ban-new-1.jpg" alt="shape-img"></div>
+									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb"><p>Our team leverages industry best practices and cutting-edge technologies to mitigate risks and optimize the performance of your migrated applications. Whether you're looking to improve scalability, enhance security, or reduce maintenance costs.</p>	</div>
 								</div>
 								<div class="main-con-outer">
 									<div class="title">Legacy Application Migration</div>
@@ -276,10 +293,12 @@
 								<div class="web-sloution-con-outer sc_services_featured_container">
 									<div class="web-slou-con sc_services_item_content_wrap">
 										<div class="sc_services_item_content">
-											<p>From captivating design to intuitive navigation and robust functionality, our service offering is tailored to meet the unique needs of your business. With our expertise, your website will not only look stunning but also perform flawlessly.</p>
+											<img src="assets/img/web-development-ban-new-3.jpg" alt="shape-img">
 										</div>
 									</div>
-									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb"><img src="assets/img/web-development-ban-new-3.jpg" alt="shape-img"></div>
+									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb">
+									<p>From captivating design to intuitive navigation and robust functionality, our service offering is tailored to meet the unique needs of your business. With our expertise, your website will not only look stunning but also perform flawlessly.</p>
+									</div>
 								</div>
 								<div class="main-con-outer">
 									<div class="title">Web & Mobile Ready Website</div>
@@ -291,14 +310,12 @@
 								<div class="web-sloution-con-outer sc_services_featured_container">
 									<div class="web-slou-con sc_services_item_content_wrap">
 										<div class="sc_services_item_content">
-											<p>Using:</p>
-											<ul class="inr-ul">
-												<li>Our Custom Application Development service offering is tailored to meet your unique business needs, providing bespoke solutions crafted with precision and expertise.From concept to deployment, we ensure seamless integration.</li>
-												
-											</ul>												
+											<img src="assets/img/web-development-ban-new-2.jpg" alt="shape-img">								
 										</div>
 									</div>
-									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb"><img src="assets/img/web-development-ban-new-2.jpg" alt="shape-img"></div>
+									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb">
+									<p>Our Custom Application Development service offering is tailored to meet your unique business needs, providing bespoke solutions crafted with precision and expertise.From concept to deployment, we ensure seamless integration.</p>
+									</div>
 								</div>
 								<div class="main-con-outer">
 									<div class="title">Custom Application Development</div>
@@ -311,10 +328,12 @@
 								<div class="web-sloution-con-outer sc_services_featured_container">
 									<div class="web-slou-con sc_services_item_content_wrap">
 										<div class="sc_services_item_content">
-											<p>Elevate your digital ecosystem with our API Development service offering. From designing and implementing APIs to documentation and ongoing support, our experienced team ensures seamless integration with your existing systems and third-party applications. </p>										
+											<img src="assets/img/web-development-ban-new-4.jpg" alt="shape-img">				
 										</div>
 									</div>
-									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb"><img src="assets/img/web-development-ban-new-4.jpg" alt="shape-img"></div>
+									<div class="banner post_featured with_thumb hover_dots sc_services_item_thumb">
+									<p>Elevate your digital ecosystem with our API Development service offering. From designing and implementing APIs to documentation and ongoing support, our experienced team ensures seamless integration with your existing systems. </p>
+									</div>
 								</div>
 								
 								<div class="main-con-outer">
@@ -612,7 +631,6 @@
 		$(document).ready(function(){
 			$(".bxslider").bxSlider(
 				{
-				  
 				  autoControls: false,
 				  stopAutoOnClick: false,
 				  pager: true,
@@ -634,7 +652,9 @@
 				  minSlides: 2,
 				  maxSlides: 5,
 				  moveSlides: 5,
-				  slideWidth: 250
+				  slideWidth: 250,
+				  touchEnabled: true,
+
 				}
 			);
 		})

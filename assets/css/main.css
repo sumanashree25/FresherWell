@@ -395,7 +395,7 @@ Version: 1.0.0
 .secure-cloud-outer{background: url(../img/sec-by-design.jpg) no-repeat 0 -200px;padding-top: 100px !important;background-size: 100%;padding-bottom: 200px !important;}
 .lead-bright-think-outer .main-con-outer{min-height: 374px;}
 .lead-bright-think-outer.lead-outer-sec .main-con-outer {     min-height: 284px; }
-.cloud-page-outer .section-padding{ padding:0 0;} 
+.cloud-page-outer .section-padding{ padding:0 0 !important;} 
 .cloud-page-outer .subscribe-outer.section-padding{ padding:50px 0;} 
 .secure-cloud-outer .title{font-size: 50px;     line-height: 66px;     color: #fff;     font-weight: bold;}
 .secure-cloud-outer .con{color: #fff;font-size: 20px;width: 800px;margin-top: 30px;line-height: 43px;font-weight: 300;}
@@ -865,6 +865,20 @@ body{
 .home-service-outer .odd:hover .choose-us-content li a, .home-service-outer .even:hover .choose-us-content li a{color: #fff;}
 
 
+@media (min-width: 1500px){
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread{     padding: 99px 0 405px !important; }
+	.our-service-bread.section-padding,.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread,.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread,.digital-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg{padding: 99px 0 490px !important;}
+}
+@media (min-width: 1600px){
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread{     padding: 99px 0 537px !important; }
+	.our-service-bread.section-padding,.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread,.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread,.digital-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg{padding: 99px 0 537px !important;}
+}
+
+@media (min-width: 2000px){
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread {     padding: 99px 0 557px !important; }
+	.our-service-bread.section-padding,.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread,.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread,.digital-breadcrumb,.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg{ padding: 99px 0 628px !important;}
+}
+
 @media (max-width: 1400px) and (min-width: 1200px){
 	.header-logo img{ width: 230px;}
 	.theme-btn{     font-size: 15px;}
@@ -896,7 +910,15 @@ body{
 }
 
 @media (max-width: 1199px) and (min-width: 992px){
-	.breadcrumb-wrapper.manage-breadcrumb {     padding: 100px 0 !important; }
+	.what-set-sec-outer .left-part, .comprehensive-sec-outer .left-part, .manage-it-sec-outer .left-part, .why-choose-sec-outer .left-part, .we-at-fresherWells-outer .left-part, .tailored-sec-outer .left-part,.what-set-sec-outer .right-part, .comprehensive-sec-outer .right-part, .manage-it-sec-outer .right-part, .why-choose-sec-outer .right-part, .we-at-fresherWells-outer .right-part, .tailored-sec-outer .right-part{ opacity: inherit !important;     transform: inherit !important;     -webkit-transition: inherit !important;}
+	.service-section .read-more-btn a{ padding:10px 12px;}
+	.header-3 .mega-menu-wrapper .header-main .header-right .header-button{display:block !important;}
+	body,.footer-section{     background-size: cover !important;}
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread {     padding: 56px 0 215px !important; }
+	.breadcrumb-wrapper.manage-breadcrumb {     padding: 100px 0 177px !important; }
+	.mobile-service-outer .title{ font-size: 42px;         text-align: center;}
+	.mobile-service-outer .mob-dev-title .tag{     font-size: 22.5px;     letter-spacing: 8px;     text-align: center;}
+	.about-us-new-title .sml{     font-size: 17px;}
 	.deliver-pro-outer .title{ font-size: 35px;}
 	.footer-widgets-wrapper .single-footer-widget .footer-address-text .link-mail{ font-size: 14px !important;}
 	.section-title h2{     font-size: 40px !important;}
@@ -905,7 +927,22 @@ body{
 	.hero-3 .slide-bg .hero-content h1 {     font-size: 40px !important;     line-height: 60px !important; }
 	.hero-3 .slide-bg {     padding: 60px !important; }
 	.header-main .main-menu ul li .submenu li a{ padding: 7px 25px !important;}
-	.section-padding {     padding:50px 0 50px !important; }
+	.section-padding {     padding:50px 0 !important; }
+	.sc_services_featured_container .banner{     background-size: cover;}
+	.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg {     padding: 100px 0 285px !important;     background-position: 0 -50px !important; }
+	.subscribe-outer .title{ font-size: 40px;}
+	.subscribe-outer .title span{ line-height: 34px;     margin-top: 17px;     margin-bottom: 31px;}
+	.subscribe-outer .row .con{     font-size: 16px;}
+	.icon-con-outer .con{ font-size: 40px;}
+	.breadcrumb-wrapper.manage-breadcrumb.abt-brd{     padding: 100px 0 310px !important;}
+	.home-service-con{ line-height: 20px;}
+	.breadcrumb-wrapper.contact-breadcrumb{     padding: 100px 0 238px !important;}
+	.theme-btn{ padding: 15px 15px;}
+	.included-outer .main-title{ font-size: 40px;}
+	.included-outer .main-title .small{     font-size: 30px;}
+	.included-outer .main-con-outer .con{ padding-right:0;}
+	.breadcrumb-wrapper.digital-breadcrumb {     background-position: 0 0px !important;     padding: 100px 0 253px !important; }
+	.bright-think-outer.we-focus-sec-outer .title{ font-size: 17px;}
 	.about-info-bg-outer.manage-info-bg-outer ul li.seven {     right: 237px;     bottom: 120px; }
 	.approch-outer .main-title{     font-size: 30px; margin-bottom: 40px;}
 	.managment-part-outer.approch-outer .con-outer{     margin: 0 0px 20px;}
@@ -920,14 +957,18 @@ body{
 	.service-section{     padding: 50px 0 50px !important;}
 	.section-padding.grow-business-outer{ padding-top:0 !important;}
 	.banner-3-wrapper .banner-overlay {     padding: 75px 0 85px 0;     text-align: center; }
-	.techwix-choose-us-section-04 .choose-us-item-02{ min-height: 430px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{ min-height: 374px;}
 	.contact-box .contact-title h3{     font-size: 30px;}
 	.contact-section-2{ padding-bottom: 50px !important;}
 	.contact-section-2 .section-title h2{ font-size: 20px;}
 	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 15px !important;}
 	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .icon{ font-size: 20px !important;}
 	.contact-box{     padding: 20px 20px 20px !important;}
-	.our-service-bread.section-padding{     padding: 100px 0 !important;}
+	.our-service-bread.section-padding{     padding: 100px 0 295px !important;}
+	.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb {     padding: 150px 0 259px !important;     background-position: 0 -60px; }
+	.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread {     padding: 150px 0 238px !important;     background-position: 0 -60px; }
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread {     background-position: 0 -60px !important;     padding: 150px 0 277px !important; }
+	.comprehensivesection .title .brd{ font-size:33px;}
 	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .form-clt {     -ms-flex-preferred-size: 70%;     flex-basis: 65% !important; }
 	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .theme-btn{     width: 112px !important;} 
 	.footer-widgets-wrapper {     padding: 0px 0 90px !important; }
@@ -942,14 +983,65 @@ body{
 .lead-bright-think-outer .main-con-outer {     min-height: 479px; }
 }
 @media (max-width: 991px) and (min-width: 769px){
-	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread{ padding: 100px 0 !important; background-position: 0 0 !important;}
+	.about-main-title .section-title .con{     width: 600px;}
+	.about-main-title .section-title h2 .sml{     font-size: 23px;}
+	.breadcrumb-wrapper.manage-breadcrumb.abt-brd {     padding: 70px 0 231px !important;     background-position: 0 0px; }
+	.cloud-page-outer .section-padding {     padding: 0 0 !important; }
+	.icon-con-outer .con{ font-size: 35px;}
+	.subscribe-outer .con-inr{     margin-bottom: 27px;    min-height: auto;}
+	.subscribe-outer .title.cloud-title span {     letter-spacing: 1.5px;     font-size: 18px;     line-height: 31px;     padding: 0 50px; }
+	.subscribe-outer .title{     font-size: 35px;}
+	.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg {     padding: 70px 0 229px !important;     background-position: 0 0px !important; }
+	.digital-marketing-page-outer .overview-service-outer .con-outer{     margin-bottom: 40px !important;}
+	.digital-marketing-page-outer .ppc-service-outer .con-outer{     margin-bottom: 40px;}
+	.digital-marketing-page-outer { padding-top: 0;     margin-top: -50px; }
+	.breadcrumb-wrapper.digital-breadcrumb {     background-position: 0 0px !important;     padding: 70px 0 176px !important; }
+	.home-service-part{     margin-bottom: 12px;}
+	.what-set-outer .title .brd{ font-size: 30px;}
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread {     padding: 99px 0 211px !important; }
+	    .breadcrumb-wrapper .page-heading h1 {         font-size: 30px !important;     }
+		.home .breadcrumb-wrapper .page-heading h1{padding:0 109px;}
+	.header__hamburger.mob-only{ display:block !important;}
+	body,.footer-section{ background-size:cover !important;}
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread{ padding: 100px 0 200px !important; background-position: 0 0 !important;}
+	.included-outer .main-con-outer{ text-align:center;}
+	.included-outer .main-con-outer .con{ text-align: center; padding-right: 0;}
+	.east-to-sec-outer.home-efect-2{ width: 700px;}
+	.info-gra-title{ font-size: 30px;}
 	.small-step-outer .title{     font-size: 40px;     line-height: 51px;}
-	.our-service-bread.section-padding{     padding: 100px 0 !important;}
+	.our-service-bread.section-padding{     padding: 100px 0 170px !important;}
+	.comprehensive-sec-outer{     margin-top: -100px;}
+	.comprehensivesection .con{     text-align: center;}
+	.manage-it-sec-outer > li{     display: block;     width: 100%;}
+	.manage-it-sec-outer li .icon img{ height: 138px;}
+	.about-section .container .col-lg-6{ text-align: center;     margin-bottom: 50px;}
+	.why-choose-us-outer .title .brd {     font-size: 30px; }
+	.why-choose-us-outer .title .sml{ letter-spacing: 6px;     font-size: 21px;}
+	.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb{     padding: 58px 0 160px !important;}
+	.mobile-service-outer .title{     font-size: 30px; text-align: center; line-height: 33px;}
+	.about-us-new-title .brd { line-height: 50px;}
+	.we-at-fresherWells-outer .web-title.about-us-new-title {     padding: 0 0; }
+	.con-outer.web-con-outer{ text-align: center;}
+	.mobile-service-outer .con-outer{     padding-right: 0; margin-top: 0;}
+	.mob-con-outer .con{     text-align: center;     margin-top: 0px;}
+	.about-section .con-left{     padding: 0 0 !important;}
+	.review-services-outer{     margin-top: -90px;}
+	.about-section .about-img-1,.about-section .about-img-2 {     padding: 0; }
+	.faq-outer .title{ font-size: 40px;}
+	.mob-dev-title {     width: 100%;     margin: 0 auto 35px;     text-align: center; }
+	.mobile-service-outer .mob-dev-title .tag {     font-size: 17px;     letter-spacing: 5px; }
+	.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread{ padding: 50px 0 200px !important;}
+	.managment-part-outer.approch-outer .manage-it-sec-outer .con-outer,.managment-part-outer.approch-outer .manage-it-sec-outer .con-outer .con{     min-height: auto;}
 	.footer-widgets-wrapper .single-footer-widget .footer-content .newsletter-items .form-clt {         -ms-flex-preferred-size: 69% !important;         flex-basis: 69% !important;     }
-	.about-info-bg-outer.manage-info-bg-outer ul li.seven {     right: 230px;     bottom: 115px; }
+	.about-info-bg-outer.manage-info-bg-outer ul li.seven {     right: inherit;         bottom: inherit;         top: 229px;         left: 62px; }
+	.about-info-bg-outer.manage-info-bg-outer ul li .title{     font-size: 14px; }
 	.about-info-bg-outer.manage-info-bg-outer ul li.eight{     right: 462px;}
-	.about-info-bg-outer.manage-info-bg-outer ul li.one{     left: 93px;}
-	.about-info-bg-outer.manage-info-bg-outer ul li.five{ top: 302px;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.one{         left: 243px;         top: 93px;}
+	.about-info-bg-outer li .con{     font-size: 12px;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.two {     right: 57px;     top: 191px;     left: inherit; }
+	.about-info-bg-outer.manage-info-bg-outer ul li.three {     right: 5px;     bottom: 295px;     left: inherit; }
+	.about-info-bg-outer.manage-info-bg-outer ul li.four {     right: 146px;     bottom: 122px; }
+	.about-info-bg-outer.manage-info-bg-outer ul li.five{         top: inherit;         left: 153px;         bottom: 128px;}
 	.about-info-bg-outer.manage-info-bg-outer ul li.six{ right: 90px;}
 	.about-info-bg-outer li.one .con{ left: 100px;     bottom: 450px;}
 .about-info-bg-outer li.three .con {     left: -20px;     bottom: 153px; }
@@ -959,11 +1051,15 @@ body{
 .about-info-bg-outer.manage-info-bg-outer ul li.seven .con{ bottom: 580px;     left: -214px;}
 .about-info-bg-outer.manage-info-bg-outer ul li.eight .con{ bottom: 580px;     left: 0px;}
 .about-info-bg-outer li.two .con{     left: 99px;     bottom: 266px;}
-	.about-info-bg-outer ul li.one{     left: 105px;}
-	.about-info-bg-outer ul li.two{ left: 100px;}
-	.about-info-bg-outer ul li.three{     left: 224px;}
+	.about-info-bg-outer ul li.one{          left: 255px;         top: 103px;}
+	.about-info-bg-outer ul li.two{ left: inherit;         top: 222px;}
+	.about-info-bg-outer ul li.three{            left: inherit;         right: 41px;}
+	.about-info-bg-outer ul li.four {     right: 267px;     bottom: 81px; }
+	.about-info-bg-outer ul li.five {     left: 31px;     bottom: 223px; }
+	.home-service-con{     padding: 50px 40px 167px;     margin: -50px 10px 0;}
+	.breadcrumb-wrapper.contact-breadcrumb {     background-size: 100%;     background-position: 0 0px;     padding: 70px 0 240px !important; }
 	.about-info-bg-outer ul li.six{     right: 102px;}
-	.about-info-bg-outer ul li .title{ width: 110px;}
+	.about-info-bg-outer ul li .title{         width: 130px;         margin: 0 auto;}
 	.about-main-title {     text-align: center;     padding: 0 0; }
 	.about-main-title .section-title h2{ font-size: 40px !important;}
 	.breadcrumb-wrapper.manage-breadcrumb {     padding: 81px 0 !important; }
@@ -991,7 +1087,8 @@ body{
 	.service-section{     padding: 50px 0 50px !important;}
 	.section-padding.grow-business-outer{ padding-top:0 !important;}
 	.banner-3-wrapper .banner-overlay {     padding: 75px 0 85px 0;     text-align: center; }
-	.techwix-choose-us-section-04 .choose-us-item-02{ min-height: 503px;}
+	.techwix-choose-us-section-04 .choose-us-item-02{        min-height: 362px;         margin-top: 46px;}
+	.contact-content{ text-align: center;     padding-right: 0;}
 	.contact-section-2{ padding-bottom: 50px !important;}
 	.contact-section-2 .section-title h2{ font-size: 20px;}
 	.contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 15px !important;}
@@ -1002,17 +1099,25 @@ body{
 	.footer-widgets-wrapper {     padding: 0px 0 90px !important; }
 }
 
-@media (min-width: 769px){
+@media (min-width: 992px){
 	.header__hamburger.mob-only{ display:none !important;}
 	.mob-contact-us{ display:none !important;}
 }
 @media (max-width: 768px){
+	.breadcrumb-wrapper.contact-breadcrumb {     background-size: 100%;     background-position: 0 0;     padding: 70px 0 240px !important; }
+	.home .managment-part-outer.cost-sec-outer{ padding-bottom: 0 !important;}
+	.what-set-sec-outer{ display:block;         text-align: center;}
+	.contact-content{ text-align: center;     padding-right: 0;}
+	.what-set-sec-outer > div{ width:100%;}
+	.what-set-sec-outer .left-part{ margin-bottom:30px;}
+	.breadcrumb-wrapper .page-heading h1 {         font-size: 30px !important;           padding: 0 105px;  }
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread.home-manage-it-bread {     padding: 70px 0 211px !important;     background-position: 0 0 !important; }
 	.managment-part-outer.approch-outer .solution-slider-outer .con-outer {     min-height: 528px; }
 	.comprehensivesection,.why-choose-us-outer{     text-align: center;}
 	.comprehensivesection .title,.why-choose-us-outer .title{ font-size: 25px;     line-height: 35px;}
 	.comprehensivesection .con{     padding: 0 20px;     margin-top: 25px;}
 	.why-choose-us-outer .con{ padding:0 20px;}
-	.why-choose-us-outer .read-more-btn{ margin-bottom:20px;}
+	.why-choose-us-outer .read-more-btn{ margin-bottom:54px;}
 	.main-con-outer .social-logo{     justify-content: center;}
 	.secure-cloud-outer .con-outer{     text-align: center;}
 	.secure-cloud-outer .con{     font-size: 16px; line-height: 34px;     margin-top: 0; width:auto;}
@@ -1062,8 +1167,9 @@ body{
 	.deliver-pro-outer{ margin-top: 0;}
 	.small-step-outer .title{     line-height: 40px;     font-size: 25px;}
 	.small-step-outer .con{     width: 100%;}
-	.mobile-service-outer .con{ font-size: 18px;     line-height: 33px;     margin-bottom: 30px; text-align: justify;}
+	.mobile-service-outer .con{ font-size: 18px;     line-height: 33px;     margin-bottom: 30px; text-align: justify;         margin-top: 0;}
 	.mobile-service-outer .title{             font-size: 25px;         line-height: 41px;         text-align: center;}
+	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread {     background-position: 0 0px !important;     padding: 70px 0 220px !important; }
 	.mobile-service-outer .con-outer {  padding: 0 20px;     text-align: center;   margin-top: 0; }
 	.custom-service-outer .bx-pager, .managment-part-outer.approch-outer .bx-pager,.telephone-slider-outer .bx-pager,.innovative-slider-outer .bx-pager{ display:block;     padding-bottom: 20px;}
 	.custom-service-outer .bx-controls-direction, .managment-part-outer.approch-outer .bx-controls-direction,.telephone-slider-outer .bx-controls-direction,.innovative-slider-outer  .bx-controls-direction{ display:none;}
@@ -1077,7 +1183,11 @@ body{
 	body {
 		font-size: 18px !important;
     color: #000 !important;
+	background-size:cover !important;
 	}
+	.included-outer .main-title .small{ font-size: 23px;     letter-spacing: 3px;}
+	.included-outer .main-con-outer .con {     text-align: center;     padding-right: 0;     color: #4e4e4e; }
+	.what-set-outer .con{ text-align: center;     padding-right: 0;} 
 	.managment-part-outer.approch-outer .con{ font-size: 16px;}
 	.about-main-title{     padding: 0 15px;}
 	.about-main-title .section-title h2{     font-size: 25px !important;     line-height: 40px;     margin-bottom: 0;}
@@ -1101,7 +1211,7 @@ body{
 .section-padding{     padding: 30px 0 !important;}
 .managment-part-outer.approch-outer.cost-sec-outer .con {     min-height: auto; }
 .service-section p{ font-size: 14px;}
-.techwix-choose-us-section-04 .choose-us-item-02{ margin: 0 12px 24px;}
+.techwix-choose-us-section-04 .choose-us-item-02{ margin: 43px 12px 24px;}
 .starting-fresherwells h2{ font-size: 26px;     line-height: 40px;}
 .banner-3-wrapper .banner-overlay{     padding: 30px 10% 30px 10%;}
 .contact-wrapper-2 .contact-content .contact-info-area .contact-info-items .content h3{ font-size: 14px !important;}
@@ -1109,16 +1219,31 @@ body{
 .section-title h2{     font-size: 20px !important;}
 .home-service-part{     margin-bottom: 10px;}
 .contact-form-items{     padding: 0 20px;}
-.our-service-bread.section-padding{ padding:70px 0 !important;}
+.our-service-bread.section-padding{ padding:70px 0 200px !important;}
+.contact-us-page-outer {     margin-top: -66px; }
+.comprehensive-sec-outer .comprehensive-img{ margin-bottom:30px;}
+.manage-it-sec-outer > li{     display: block;     width: 100%;}
+.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb {     padding: 57px 0 122px !important;     background-position: 0 -60px; }
+.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread {     padding: 70px 0 200px !important;     background-position: 0 0px; }
+.mobile-service-outer .mob-dev-title .tag {     font-size: 20.5px;     letter-spacing: 0;     text-align: center; }
 .comprehensive-img {     padding-right: 0; }
 .about-info-bg-outer.manage-info-bg-outer ul li .title{ font-size:15px;}
-.about-info-bg-outer ul li .title{ width: 112px;}
-.about-info-bg-outer.manage-info-bg-outer ul li.two{     left: 74px;     bottom: 456px;}
+.about-info-bg-outer ul li .title{ width: 128px;         margin: 0 auto;}
+.info-gra-title{     font-size: 28px;}
+.breadcrumb-wrapper.manage-breadcrumb.cloud-brd-bg {     padding: 70px 0 175px !important;     background-position: 0 0px !important; }
+.icon-con-outer .con{ font-size: 30px;}
+.breadcrumb-wrapper.manage-breadcrumb.abt-brd {     padding: 70px 0 169px !important;     background-position: 0 0; }
+.about-main-title .section-title .con{     width: 100%;}
+.about-main-title .section-title h2 .sml {     font-weight: 400;     font-size: 20px;     letter-spacing: 0; }
+.breadcrumb-wrapper.digital-breadcrumb {     background-position: 0 0px !important;     padding: 70px 0 124px !important; }
+.about-info-bg-outer.manage-info-bg-outer ul li.two{             left: inherit;         bottom: inherit;         top: 197px;}
 .about-info-bg-outer.manage-info-bg-outer ul li.eight{right: 395px;bottom: 152px;}
-.about-info-bg-outer.manage-info-bg-outer ul li.one{    left: 72px;         bottom: 278px;}
-.about-info-bg-outer.manage-info-bg-outer ul li.three {     left: 201px;         top: 148px;}
-.about-info-bg-outer.manage-info-bg-outer ul li.four {     right: 200px;     top: 159px; }
-.about-info-bg-outer.manage-info-bg-outer ul li.five {right: 77px;top: 314px;}
+.about-info-bg-outer.manage-info-bg-outer ul li.one{    left: 239px;         bottom: inherit;         top: 95px;}
+.about-info-bg-outer.manage-info-bg-outer ul li.three {     left: inherit;         top: 394px;         bottom: inherit;         right: 0;}
+.about-info-bg-outer.manage-info-bg-outer ul li.four {     right: 154px;         top: inherit;         bottom: 102px;}
+.about-info-bg-outer.manage-info-bg-outer ul li.five {right: inherit;         top: inherit;         left: 141px;         bottom: 122px;}
+.about-info-bg-outer.manage-info-bg-outer ul li.six {     left: 12px;     bottom: 283px; }
+.about-info-bg-outer.manage-info-bg-outer ul li.seven {     left: 67px;     top: 191px; }
 .about-info-bg-outer li.one .con{ left: 100px;     bottom: 450px;}
 .about-info-bg-outer li.three .con {     left: -20px;     bottom: 153px; }
 .about-info-bg-outer li.four .con {     left: -229px;     bottom: 117px;  }
@@ -1129,14 +1254,17 @@ body{
 .about-info-bg-outer.manage-info-bg-outer{ width: 700px;}
 .about-info-bg-outer li.two .con{     left: 99px;     bottom: 266px;}
 .digital-marketing-page-outer .ppc-service-outer .con-outer{     margin: 0 10px 25px;}
-.about-info-bg-outer ul li.one {     left: 102px;     bottom: 256px; }
-.about-info-bg-outer ul li.two {     left: 96px;     bottom: 438px; }
-.about-info-bg-outer ul li.three{ left: 222px;}
-.about-info-bg-outer ul li.four{ right: 218px;} 
+.about-info-bg-outer ul li.one {     left: 260px;         bottom: inherit;         top: 92px;}
+.about-info-bg-outer ul li.two {     left: inherit;         bottom: inherit;         top: 217px;         right: 20px; }
+.about-info-bg-outer ul li.three{         left: inherit;         top: inherit;         right: 45px;}
+.about-info-bg-outer ul li.four{         right: 267px;         bottom: 84px;} 
+.home-service-con{ padding: 50px 40px 154px;}
 .about-info-bg-outer ul li.six{     right: 102px;}
+.why-choose-us-outer .title .brd {     font-size: 39px;     margin-bottom: 15px; }
 }
 
 @media (max-width: 767px) {
+	
 	.how-we-title, .we-at-fresherWells-outer, .we-pro-title-outer,.Cost-effectiveness-outer, .cst-web-sol-outer, .the-core-sec-outer, .telephone-outer, .fresherwells-provides-sec-outer, .we-focus-sec-outer, .social-mi-outer, .content-cre-sec-outer, .social-ad-sec-outer,.what-set-sec-outer .left-part, .comprehensive-sec-outer .left-part, .manage-it-sec-outer .left-part, .why-choose-sec-outer .left-part, .we-at-fresherWells-outer .left-part, .tailored-sec-outer .left-part,.what-set-sec-outer .right-part, .comprehensive-sec-outer .right-part, .manage-it-sec-outer .right-part, .why-choose-sec-outer .right-part, .we-at-fresherWells-outer .right-part, .tailored-sec-outer .right-part{     opacity: inherit !important; transform: inherit !important;}
 	.breadcrumb-wrapper.contact-breadcrumb {     background-size: 100%;     background-position: 0 0;     padding: 50px 0 79px !important; }
 	.about-main-title .section-title h2 .sml {     font-weight: 400;     font-size: 18px;     letter-spacing: 0;     padding: 0 30px;     line-height: 30px;     margin-top: 20px; }
@@ -1154,13 +1282,13 @@ body{
 	.mob-con-outer .con{ margin-top: 0;}
 	.mobile-service-outer .mob-dev-title .title{     font-size: 22px; margin-bottom: 0;}
 	.mobile-service-outer .mob-dev-title .tag {     font-size: 18px;     letter-spacing: 0;     text-align: center; }
-	.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread{ background-position: 0 0;}
+	.breadcrumb-wrapper.manage-breadcrumb.mob-dev-bread{ background-position: -39px 0;         padding: 17px 0 !important;}
 	.about-us-new-title .brd {     line-height: 40px; }
 	.small-step-outer .con{ font-size: 17px;     line-height: 28px;}
 	.bright-think-outer .title{ font-size: 18px;}
 	.web-dev-outer:after{     top: 219px;     width: 100%;}
 	.we-at-fresherWells-outer .web-title.about-us-new-title {     padding: 0 0; text-align: center;}
-	.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb{     background-position: 0 0;}
+	.breadcrumb-wrapper.manage-breadcrumb.web-dev-breadcrumb{     background-position: 0 0;         padding: 20px 0 5px !important;}
 	body{ background-size: cover !important;}
 	    .why-choose-us-outer .con {         padding: 0 0;     }
 	.why-choose-us-outer .title .brd {     font-size: 30px; }
@@ -1228,21 +1356,26 @@ body{
 	.breadcrumb-wrapper h1 span{ width: 59%;     font-size: 17px;}
 	.breadcrumb-wrapper.contact-breadcrumb.manage-it-breadcrumb.manage-it-bread{     background-position: 0 0 !important; background-position: 0 0 !important;         padding-bottom: 102px !important;}
 	.about-info-bg-outer.manage-info-bg-outer ul li .title {font-size: 10px;width: 58px;line-height: 21px;text-align: center;margin: 0 auto;}
-	.about-info-bg-outer.manage-info-bg-outer ul li.one {         left: 40px;         bottom: 132px;     }
-	.about-info-bg-outer.manage-info-bg-outer ul li.two {         left: 35px;         bottom: 225px;     }
-	.about-info-bg-outer.manage-info-bg-outer ul li.three {         left: 104px;         top: 69px;     }
-	    .about-info-bg-outer.manage-info-bg-outer ul li.four {         right: 100px;         top: 75px;     }
-		.about-info-bg-outer.manage-info-bg-outer ul li.five {         right: 40px;         top: 154px;     }
-		.about-info-bg-outer.manage-info-bg-outer ul li.six {     right: 37px;     bottom: 143px; }
-		.about-info-bg-outer.manage-info-bg-outer ul li.seven {     right: 101px;     bottom: 69px; }
-		    .about-info-bg-outer.manage-info-bg-outer ul li.eight {         right: 203px;         bottom: 71px;     }
-		.about-info-bg-outer{     padding: 200px 0 200px;     width: 365px;}
-		.about-info-bg-outer ul li .title {         width: 90px;        font-size: 12px; }
-		.about-info-bg-outer.manage-info-bg-outer ul li.two .con{ left: -180px;         bottom: inherit;         top: -176px;         background: #00acc2;}
-		.about-info-bg-outer.manage-info-bg-outer ul li.three .con{ left: -206px;         bottom: inherit;         top: -277px;         background: #009788;}
-		.about-info-bg-outer.manage-info-bg-outer ul li.four .con{ left: -126px;         bottom: 313px;         top: inherit;         background: #79b344;}
-		.about-info-bg-outer.manage-info-bg-outer ul li.five .con{ left: -9px;         bottom: 309px;         top: inherit;         background: #bfca33;}
-		.about-info-bg-outer.manage-info-bg-outer ul li.six .con{ left: 54px;         bottom: 230px;         top: inherit;         background: #f7b61b;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.one {left: 134px;top: 54px;bottom: inherit;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.two {right: 21px;bottom: inherit;left: inherit;top: 95px;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.three {left: inherit;top: 203px;right: 0;bottom: inherit;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.four {right: 76px;top: inherit;left: inherit;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.five {right: 196px;top: inherit;left: inherit;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.six {right: inherit;bottom: 154px;left: 10px;}
+    .about-info-bg-outer.manage-info-bg-outer ul li.seven {right: inherit;bottom: inherit;left: 33px;top: 107px;}
+	.about-info-bg-outer ul li.one {left: 133px;bottom: inherit;top: 58px;}
+	.about-info-bg-outer ul li.two {left: inherit;bottom: inherit;top: 127px;right: 8px;}
+	.about-info-bg-outer ul li.three {left: inherit;right: 16px;bottom: 110px;top: inherit;}
+	.about-info-bg-outer ul li.four {right: 126px;bottom: 54px;}
+	.about-info-bg-outer ul li.five {left: 27px;bottom: 98px;}
+	.about-info-bg-outer ul li.six {right: inherit;left: 14px;bottom: 237px;}
+	.about-info-bg-outer{     padding: 200px 0 200px;     width: 365px;}
+	.about-info-bg-outer ul li .title {         width: 90px;        font-size: 12px; }
+	.about-info-bg-outer.manage-info-bg-outer ul li.two .con{ left: -180px;         bottom: inherit;         top: -176px;         background: #00acc2;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.three .con{ left: -206px;         bottom: inherit;         top: -277px;         background: #009788;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.four .con{ left: -126px;         bottom: 313px;         top: inherit;         background: #79b344;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.five .con{ left: -9px;         bottom: 309px;         top: inherit;         background: #bfca33;}
+	.about-info-bg-outer.manage-info-bg-outer ul li.six .con{ left: 54px;         bottom: 230px;         top: inherit;         background: #f7b61b;}
 		
 }
 @media (max-width: 480px) {
@@ -3835,7 +3968,7 @@ input.main-search-input::placeholder {
 
 @media (max-width: 1199px) {
   .breadcrumb-wrapper .page-heading h1 {
-    font-size: 50px;
+    font-size: 40px;
   }
 }
 
@@ -3852,10 +3985,12 @@ input.main-search-input::placeholder {
 	.contact-content{ padding: 0 15px !important;}
 	.home .contact-content h2 {     font-size: 25px !important;     text-align: center; }
   .breadcrumb-wrapper .page-heading h1 {
-            font-size: 19px;
+            font-size: 19px !important;
         padding: 0 42px;
         line-height: 30px;
   }
+  .footer-bottom.style-2 .footer-wrapper{ font-size:14px;}
+  .comprehensivesection .con{         text-align: center;}
   .home .approch-outer .main-title .sml {
     font-size: 30px;
     line-height: 23px;
